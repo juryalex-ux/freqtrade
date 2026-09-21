@@ -1,0 +1,19 @@
+{
+  "branch": "ai-lab-development",
+  "strategy_sha256": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+  "source_sha256": "39d4e99606fecd52883de55f31b0900849341e70ba85af0f29b60715ee3e2d61",
+  "source_rows": 1271,
+  "dataset_b_loaded": false,
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "no_2025_or_2026_data": true,
+  "models_fitted": 360,
+  "prediction_rows": 74736,
+  "shadow_holdout_accessed": false
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-09-21T18:59:41.378563+00:00",
+  "category": "C",
+  "all_integrity_checks": "PASS",
+  "original_seal_and_prices_unchanged": true,
+  "pre_unseal_candidate_hashes_unchanged": true,
+  "source_hashes_unchanged": true,
+  "prediction_calls": 1,
+  "shadow_refits": 0,
+  "training_rows": 1271,
+  "training_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "causality": {
+    "BTC/USDT": {
+      "sealed_candles": 3672,
+      "prefix_checks": 12,
+      "future_mutation": "PASS",
+      "no_future_fill": "PASS",
+      "missing_shadow_candles": 0,
+      "duplicate_candles": 0
+    },
+    "ETH/USDT": {
+      "sealed_candles": 3672,
+      "prefix_checks": 12,
+      "future_mutation": "PASS",
+      "no_future_fill": "PASS",
+      "missing_shadow_candles": 0,
+      "duplicate_candles": 0
+    }
+  },
+  "trade_rows": 78,
+  "selected_rows": 2,
+  "duplicates": 0,
+  "nonfinite_features": 0,
+  "future_entry_features": 0,
+  "feature_count": 36,
+  "forced_boundary_exits": 1,
+  "rejected_baseline_signals": 0,
+  "drawdown_definition": "Close-time closed-trade subset equity; original Phase 3C used entry-day ordering, corrected and frozen before unseal.",
+  "category_policy": "Predeclared in frozen-candidate.json; no performance-selected threshold or feature changes"
+}

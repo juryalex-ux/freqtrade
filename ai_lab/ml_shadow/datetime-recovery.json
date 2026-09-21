@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-21T18:59:14.474616+00:00",
+  "reason": "Concatenating datetime storage types produced object dtype; explicitly normalize UTC while asserting every timestamp value is unchanged.",
+  "candidate_changes": [],
+  "previous_predictions": 0,
+  "previous_baseline_runs": 0,
+  "recovery_script_sha256": "e6ba870dfce00c5b37402fa986e9a66f721a5bec346941ef0ba689e083de5cf4",
+  "effective_code_sha256": "b37dca413b096daec638ddb348162401fd0e530ef065cdf8bbd1ecbefa89bc10",
+  "exact_replacements": {
+    "assert not (HERE/'EVALUATION_STARTED.json').exists(), 'Single-shot evaluation already started; no automatic rerun'": "assert (HERE/'EVALUATION_STARTED.json').exists(), 'Recovery requires original start marker'",
+    "save(HERE/'EVALUATION_STARTED.json',": "record_resume(",
+    "assert pd.DatetimeIndex(prices.date).equals(grid)": "assert len(prices)==len(grid) and bool((pd.DatetimeIndex(prices.date)==grid).all()), 'Hourly timestamp values differ'",
+    "full=pd.concat([warmup(pair),prices],ignore_index=True)": "full=pd.concat([warmup(pair),prices],ignore_index=True)\n        original_times=list(full.date)\n        full['date']=pd.to_datetime(full.date,utc=True)\n        assert all(a==b for a,b in zip(original_times,full.date)), 'Time values changed'"
+  }
+}

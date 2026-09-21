@@ -1,0 +1,10 @@
+{
+  "status": "CONSUMED",
+  "utc": "2026-09-21T18:59:41.022831+00:00",
+  "original_seal": "ai_lab/regime/shadow/SEALED.json",
+  "original_seal_sha256": "319b8a97e5c1fb705662e3efec13ab4d7fe42a0af3c43ed3573f3f51819aedd9",
+  "evaluation": "2026-04-01 through 2026-09-01 exclusive",
+  "candidate_manifest_sha256": "31f2af6390965cfeb1066e168c78c009301d7b4a32a2773abc04dfc88c9c9722",
+  "prediction_sha256": "0c4bd0969cd6de73c46f55a275f2cce4b5d102490766d23816142789ec325b70",
+  "rule": "Never treat this period as unseen again. Original SEALED.json is historical and is not resealed."
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-21T18:58:29.013150+00:00",
+  "reason": "Same timestamps stored as datetime64[ms] versus datetime64[us]; Index.equals is dtype-sensitive.",
+  "before_recovery_predictions": 0,
+  "before_recovery_baseline_runs": 0,
+  "candidate_changes": [],
+  "frozen_evaluate_file_preserved_sha256": "882ef0eb2554fb204d2a34ecb4de1891fe241f10984571313e6bdef8de340e00",
+  "recovery_script_sha256": "89b2adbf5c218cb08162415e69562805b9cc6edd05fff3db041d7c327c7c74ac",
+  "effective_code_sha256": "e65c30b56417048a3493fc982b4adf7b76b62390f4ff6d3d3fde3f9039eef547",
+  "exact_replacements": {
+    "assert not (HERE/'EVALUATION_STARTED.json').exists(), 'Single-shot evaluation already started; no automatic rerun'": "assert (HERE/'EVALUATION_STARTED.json').exists(), 'Recovery requires original start marker'",
+    "save(HERE/'EVALUATION_STARTED.json',": "record_resume(",
+    "assert pd.DatetimeIndex(prices.date).equals(grid)": "assert len(prices)==len(grid) and bool((pd.DatetimeIndex(prices.date)==grid).all()), 'Hourly timestamp values differ'"
+  }
+}

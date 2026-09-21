@@ -1,0 +1,205 @@
+{
+  "ALL": {
+    "n": 78,
+    "prevalence": 0.38461538461538464,
+    "mean_probability": 0.3329896659823267,
+    "roc_auc": 0.5270833333333333,
+    "pr_auc_ap": 0.3959957013574983,
+    "balanced_accuracy": 0.4791666666666667,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24731147789904254,
+    "ece_5_bins": 0.11186146798701935,
+    "confusion_matrix": [
+      [
+        46,
+        2
+      ],
+      [
+        30,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 10,
+        "mean_probability": 0.17212448751329754,
+        "observed_rate": 0.2
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 48,
+        "mean_probability": 0.3104740593059169,
+        "observed_rate": 0.4375
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 19,
+        "mean_probability": 0.45871758651391553,
+        "observed_rate": 0.3684210526315789
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6335600810401008,
+        "observed_rate": 0.0
+      }
+    ],
+    "phase3c_standard_cutoff_0_50": {
+      "balanced_accuracy": 0.475,
+      "precision": 0.2,
+      "recall": 0.03333333333333333,
+      "f1": 0.05714285714285714,
+      "confusion_matrix": [
+        [
+          44,
+          4
+        ],
+        [
+          29,
+          1
+        ]
+      ]
+    },
+    "decision_threshold": 0.55
+  },
+  "BTC/USDT": {
+    "n": 36,
+    "prevalence": 0.4166666666666667,
+    "mean_probability": 0.3236529973257468,
+    "roc_auc": 0.6825396825396826,
+    "pr_auc_ap": 0.6112918557415125,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.23155908842331221,
+    "ece_5_bins": 0.10349522215833445,
+    "confusion_matrix": [
+      [
+        21,
+        0
+      ],
+      [
+        15,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 7,
+        "mean_probability": 0.1698097072447804,
+        "observed_rate": 0.14285714285714285
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 19,
+        "mean_probability": 0.30807711460798204,
+        "observed_rate": 0.42105263157894735
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 10,
+        "mean_probability": 0.4609374775461763,
+        "observed_rate": 0.6
+      }
+    ],
+    "phase3c_standard_cutoff_0_50": {
+      "balanced_accuracy": 0.5095238095238095,
+      "precision": 0.5,
+      "recall": 0.06666666666666667,
+      "f1": 0.11764705882352941,
+      "confusion_matrix": [
+        [
+          20,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ]
+    },
+    "decision_threshold": 0.55
+  },
+  "ETH/USDT": {
+    "n": 42,
+    "prevalence": 0.35714285714285715,
+    "mean_probability": 0.3409925248308238,
+    "roc_auc": 0.37283950617283956,
+    "pr_auc_ap": 0.29997256067795464,
+    "balanced_accuracy": 0.46296296296296297,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.26081352602109703,
+    "ece_5_bins": 0.19423697275692534,
+    "confusion_matrix": [
+      [
+        25,
+        2
+      ],
+      [
+        15,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 3,
+        "mean_probability": 0.17752564147317096,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 29,
+        "mean_probability": 0.31204447134939156,
+        "observed_rate": 0.4482758620689655
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 9,
+        "mean_probability": 0.4562510409225146,
+        "observed_rate": 0.1111111111111111
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6335600810401008,
+        "observed_rate": 0.0
+      }
+    ],
+    "phase3c_standard_cutoff_0_50": {
+      "balanced_accuracy": 0.4444444444444444,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          24,
+          3
+        ],
+        [
+          15,
+          0
+        ]
+      ]
+    },
+    "decision_threshold": 0.55
+  }
+}

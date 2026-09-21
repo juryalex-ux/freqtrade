@@ -1,0 +1,129 @@
+{
+  "unfiltered": {
+    "trades": 78,
+    "wins": 30,
+    "losses": 48,
+    "win_rate_pct": 38.46153846153847,
+    "net_usdt": 1.3001820400000006,
+    "return_on_1000_pct": 0.13001820400000005,
+    "average_trade_pct": 0.016852279626897233,
+    "profit_factor": 1.0168672765094358,
+    "profit_factor_note": null,
+    "expectancy_usdt": 0.016669000512820522,
+    "closed_trade_max_drawdown_pct": 1.7107254030000036,
+    "consecutive_losses": 7,
+    "regime_counts": {
+      "RANGE": 55,
+      "TREND_UP": 15,
+      "LOW_VOLATILITY": 7,
+      "TREND_DOWN": 1
+    },
+    "average_duration_minutes": 2610.0,
+    "retention_pct": 100.0,
+    "freqtrade_wallet_max_drawdown_pct": 2.336888796228478
+  },
+  "filtered": {
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_usdt": -3.58997912,
+    "return_on_1000_pct": -0.35899791200000003,
+    "average_trade_pct": -1.7969513799881203,
+    "profit_factor": 0.0,
+    "profit_factor_note": null,
+    "expectancy_usdt": -1.79498956,
+    "closed_trade_max_drawdown_pct": 0.35899791199999526,
+    "consecutive_losses": 2,
+    "regime_counts": {
+      "TREND_UP": 2
+    },
+    "average_duration_minutes": 2610.0,
+    "retention_pct": 2.564102564102564
+  },
+  "pairs": {
+    "BTC/USDT": {
+      "unfiltered": {
+        "trades": 36,
+        "wins": 15,
+        "losses": 21,
+        "win_rate_pct": 41.66666666666667,
+        "net_usdt": -0.09312661000000055,
+        "return_on_1000_pct": -0.009312661000000055,
+        "average_trade_pct": -0.0021206421699174454,
+        "profit_factor": 0.9971719950992538,
+        "profit_factor_note": null,
+        "expectancy_usdt": -0.0025868502777777933,
+        "closed_trade_max_drawdown_pct": 1.2647060830718169,
+        "consecutive_losses": 3,
+        "regime_counts": {
+          "RANGE": 23,
+          "TREND_UP": 7,
+          "LOW_VOLATILITY": 6
+        },
+        "average_duration_minutes": 2955.0
+      },
+      "filtered": {
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": null,
+        "net_usdt": 0.0,
+        "return_on_1000_pct": 0.0,
+        "average_trade_pct": null,
+        "profit_factor": null,
+        "profit_factor_note": "no trades",
+        "expectancy_usdt": null,
+        "closed_trade_max_drawdown_pct": 0.0,
+        "consecutive_losses": 0,
+        "regime_counts": {},
+        "average_duration_minutes": null,
+        "retention_pct": 0.0
+      }
+    },
+    "ETH/USDT": {
+      "unfiltered": {
+        "trades": 42,
+        "wins": 15,
+        "losses": 27,
+        "win_rate_pct": 35.714285714285715,
+        "net_usdt": 1.3933086499999996,
+        "return_on_1000_pct": 0.13933086499999997,
+        "average_trade_pct": 0.03311478402416694,
+        "profit_factor": 1.031556404045892,
+        "profit_factor_note": null,
+        "expectancy_usdt": 0.03317401547619046,
+        "closed_trade_max_drawdown_pct": 1.8418997999999989,
+        "consecutive_losses": 7,
+        "regime_counts": {
+          "RANGE": 32,
+          "TREND_UP": 8,
+          "TREND_DOWN": 1,
+          "LOW_VOLATILITY": 1
+        },
+        "average_duration_minutes": 2314.285714285714
+      },
+      "filtered": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate_pct": 0.0,
+        "net_usdt": -3.58997912,
+        "return_on_1000_pct": -0.35899791200000003,
+        "average_trade_pct": -1.7969513799881203,
+        "profit_factor": 0.0,
+        "profit_factor_note": null,
+        "expectancy_usdt": -1.79498956,
+        "closed_trade_max_drawdown_pct": 0.35899791199999526,
+        "consecutive_losses": 2,
+        "regime_counts": {
+          "TREND_UP": 2
+        },
+        "average_duration_minutes": 2610.0,
+        "retention_pct": 4.761904761904762
+      }
+    }
+  },
+  "net_improvement_usdt": -4.890161160000001,
+  "reporting_note": "Raw economics.json labeled max_drawdown_account as wallet drawdown. It is closed-trade drawdown. This finalized file uses wallet_stats for the distinct wallet statistic. No outcomes or predictions change."
+}

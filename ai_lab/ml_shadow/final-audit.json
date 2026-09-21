@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-21T19:02:24.439663+00:00",
+  "branch": "ai-lab-development",
+  "tracked_changes": [],
+  "preexisting_untracked": "ai_lab/ml_models_v2/",
+  "created_scope": "ai_lab/ml_shadow/",
+  "frozen_sources_model_manifest_unchanged": true,
+  "original_seal_and_prices_unchanged": true,
+  "training_data_2019_2024_only": true,
+  "prediction_calls": 1,
+  "baseline_backtest_runs": 1,
+  "technical_recoveries_before_predictions": 2,
+  "candidate_parameter_changes": 0,
+  "tests": "3 passed",
+  "git_status": "?? ai_lab/ml_models_v2/\n?? ai_lab/ml_shadow/\n",
+  "consumption_marker": "ai_lab/ml_shadow/CONSUMED.json",
+  "reporting_corrections": [
+    "Close-time subset drawdown defined before unseal; differs from Phase 3C entry-day implementation.",
+    "Final economic-comparison.json distinguishes original closed-trade vs wallet-statistics drawdown fields."
+  ]
+}

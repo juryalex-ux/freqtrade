@@ -1,0 +1,67 @@
+[
+  {
+    "fold": 1,
+    "evaluation_year": 2020,
+    "train_rows": 221,
+    "test_rows": 208,
+    "purged_train": 2,
+    "right_boundary_test_exclusions": 2,
+    "embargo_hours": 48,
+    "last_train_label_end": "2019-12-28 20:00:00+00:00",
+    "first_test_decision": "2020-01-01 20:00:00+00:00",
+    "train_prevalence": 0.3212669683257919,
+    "test_prevalence": 0.3798076923076923
+  },
+  {
+    "fold": 2,
+    "evaluation_year": 2021,
+    "train_rows": 431,
+    "test_rows": 201,
+    "purged_train": 2,
+    "right_boundary_test_exclusions": 2,
+    "embargo_hours": 48,
+    "last_train_label_end": "2020-12-27 06:00:00+00:00",
+    "first_test_decision": "2021-01-02 17:00:00+00:00",
+    "train_prevalence": 0.3503480278422274,
+    "test_prevalence": 0.39303482587064675
+  },
+  {
+    "fold": 3,
+    "evaluation_year": 2022,
+    "train_rows": 634,
+    "test_rows": 210,
+    "purged_train": 2,
+    "right_boundary_test_exclusions": 3,
+    "embargo_hours": 48,
+    "last_train_label_end": "2021-12-29 08:00:00+00:00",
+    "first_test_decision": "2022-01-02 00:00:00+00:00",
+    "train_prevalence": 0.3643533123028391,
+    "test_prevalence": 0.3047619047619048
+  },
+  {
+    "fold": 4,
+    "evaluation_year": 2023,
+    "train_rows": 845,
+    "test_rows": 216,
+    "purged_train": 4,
+    "right_boundary_test_exclusions": 1,
+    "embargo_hours": 48,
+    "last_train_label_end": "2022-12-28 16:00:00+00:00",
+    "first_test_decision": "2023-01-02 01:00:00+00:00",
+    "train_prevalence": 0.34911242603550297,
+    "test_prevalence": 0.3333333333333333
+  },
+  {
+    "fold": 5,
+    "evaluation_year": 2024,
+    "train_rows": 1065,
+    "test_rows": 203,
+    "purged_train": 1,
+    "right_boundary_test_exclusions": 2,
+    "embargo_hours": 48,
+    "last_train_label_end": "2023-12-29 22:00:00+00:00",
+    "first_test_decision": "2024-01-01 02:00:00+00:00",
+    "train_prevalence": 0.34460093896713617,
+    "test_prevalence": 0.35960591133004927
+  }
+]
