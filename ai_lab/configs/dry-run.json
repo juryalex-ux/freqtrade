@@ -1,0 +1,64 @@
+{
+  "max_open_trades": 2,
+  "stake_currency": "USDT",
+  "stake_amount": 100,
+  "tradable_balance_ratio": 0.99,
+  "timeframe": "1h",
+  "dry_run": true,
+  "dry_run_wallet": 1000,
+  "trading_mode": "spot",
+  "margin_mode": "",
+  "strategy": "LabBaseline",
+  "user_data_dir": "ai_lab",
+  "datadir": "ai_lab/data",
+  "cancel_open_orders_on_exit": true,
+  "unfilledtimeout": {
+    "entry": 10,
+    "exit": 10,
+    "exit_timeout_count": 0,
+    "unit": "minutes"
+  },
+  "entry_pricing": {
+    "price_side": "same",
+    "use_order_book": true,
+    "order_book_top": 1,
+    "price_last_balance": 0.0
+  },
+  "exit_pricing": {
+    "price_side": "same",
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exchange": {
+    "name": "binance",
+    "key": "",
+    "secret": "",
+    "ccxt_config": {},
+    "ccxt_async_config": {},
+    "pair_whitelist": [
+      "BTC/USDT",
+      "ETH/USDT"
+    ],
+    "pair_blacklist": []
+  },
+  "pairlists": [
+    {
+      "method": "StaticPairList"
+    }
+  ],
+  "api_server": {
+    "enabled": false,
+    "listen_ip_address": "127.0.0.1",
+    "listen_port": 8080,
+    "username": "",
+    "password": "",
+    "jwt_secret_key": "DISABLED_PLACEHOLDER_NOT_A_SECRET_0000"
+  },
+  "force_entry_enable": false,
+  "initial_state": "running",
+  "bot_name": "ai-lab-phase1",
+  "internals": {
+    "process_throttle_secs": 5
+  },
+  "db_url": "sqlite:///ai_lab/results/dry-run.sqlite"
+}

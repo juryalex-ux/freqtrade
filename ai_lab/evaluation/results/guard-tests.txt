@@ -1,0 +1,11 @@
+test_changed_strategy_rejected (__main__.Guards.test_changed_strategy_rejected) ... ok
+test_current_protocol (__main__.Guards.test_current_protocol) ... ok
+test_environment_override_rejected (__main__.Guards.test_environment_override_rejected) ... ok
+test_future_fold_rejected (__main__.Guards.test_future_fold_rejected) ... ok
+test_primary_overlap_rejected (__main__.Guards.test_primary_overlap_rejected) ... ok
+test_wrong_branch_rejected (__main__.Guards.test_wrong_branch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.212s
+
+OK

@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "4374f39c4ede5cb6af6d9c4567f4a526459de79f7310ec38922314475b480ea1",
+  "framework_sha256": "d6a84634732df6c0d2e96fda521e9c6e802fb0fa1873a37ade7a817287fa96a7",
+  "strategy_sha256": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+  "config_sha256": "9452cdfea1047d16268ef67692c1ad6f313437b6118091e875e7bb49c349d44d",
+  "locked_utc": "2026-09-21T05:01:27.648656+00:00",
+  "status": "complete",
+  "warning": "Test revealed; future development requires a fresh untouched holdout."
+}

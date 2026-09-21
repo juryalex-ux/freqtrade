@@ -1,0 +1,32 @@
+{
+  "BTC/USDT": {
+    "scored_candles": 8760,
+    "warmup_candles": 51,
+    "missing": 1,
+    "missing_utc": [
+      "2023-03-24 13:00:00+00:00"
+    ],
+    "duplicates": 0,
+    "observed_scoring_candles": 8759,
+    "zero_volume_candles": 1,
+    "source_sha256": "6cc938a66ac8c2904e4a73100510fdca923e58856c04a20283f4b65b8fbbfb94",
+    "slice_sha256": "4d8cd21cc3ef469a7f99051896d3a6af8a0b552d32dc246586d8780721fd7bb5",
+    "first": "2022-12-29 21:00:00+00:00",
+    "last": "2023-12-31 23:00:00+00:00"
+  },
+  "ETH/USDT": {
+    "scored_candles": 8760,
+    "warmup_candles": 51,
+    "missing": 1,
+    "missing_utc": [
+      "2023-03-24 13:00:00+00:00"
+    ],
+    "duplicates": 0,
+    "observed_scoring_candles": 8759,
+    "zero_volume_candles": 1,
+    "source_sha256": "24666c38140ac9d59beabbe598d8b3a36458b63fe9228280d8a3209421fbe6d7",
+    "slice_sha256": "92f2cb878fb6085c83195740eafc982e6efb8f790d30280b3e9f47991bf5430b",
+    "first": "2022-12-29 21:00:00+00:00",
+    "last": "2023-12-31 23:00:00+00:00"
+  }
+}
