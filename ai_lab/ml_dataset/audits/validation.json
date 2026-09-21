@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "development": 217,
+    "validation": 205
+  },
+  "feature_count": 40,
+  "numeric_count": 38,
+  "checks": {
+    "BTC/USDT": {
+      "prefixes": 70,
+      "future_mutation": "PASS"
+    },
+    "ETH/USDT": {
+      "prefixes": 70,
+      "future_mutation": "PASS"
+    }
+  },
+  "duplicates": 0,
+  "feature_nan_count": 0,
+  "feature_infinity_count": 0,
+  "chronological_order": "PASS",
+  "split_and_outcome_separation": "PASS",
+  "baseline_hash": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c"
+}

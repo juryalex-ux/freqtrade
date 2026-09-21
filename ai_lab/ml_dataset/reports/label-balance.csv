@@ -1,0 +1,11 @@
+split,target,positive,negative,unknown,positive_pct_known
+development,profitable_after_fees,72,145,0,33.17972350230415
+development,return_above_0_5_percent,57,160,0,26.26728110599078
+development,return_above_1_percent,46,171,0,21.19815668202765
+development,stoploss_hit,8,209,0,3.686635944700461
+development,favorable_move_before_adverse_move,87,92,38,48.60335195530726
+validation,profitable_after_fees,73,132,0,35.609756097560975
+validation,return_above_0_5_percent,59,146,0,28.780487804878046
+validation,return_above_1_percent,50,155,0,24.390243902439025
+validation,stoploss_hit,15,190,0,7.317073170731707
+validation,favorable_move_before_adverse_move,98,91,16,51.85185185185185

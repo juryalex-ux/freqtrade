@@ -1,0 +1,27 @@
+Created in Phase 2C only; no pre-existing files modified.
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\.gitignore
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audit.py
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audits\artifact-hashes.json
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audits\build.log
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audits\correlation-flags.json
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audits\source-manifest.json
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audits\tests.log
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\audits\validation.json
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\build.py
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\data\development_dataset.parquet
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\data\development_features.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\data\development_outcomes.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\data\validation_dataset.parquet
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\data\validation_features.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\data\validation_outcomes.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\features.py
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\README.md
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\feature-distributions.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\feature-outcome-correlations.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\label-balance.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\pair-comparison.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\regime-outcomes.csv
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\summary.md
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\schema.json
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\test_features.py
+C:\Users\ip1ip\Documents\freqtrade\ai_lab\ml_dataset\reports\file-inventory.txt

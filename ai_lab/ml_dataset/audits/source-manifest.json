@@ -1,0 +1,24 @@
+{
+  "BTC/USDT": {
+    "source_sha256": "f0fe06344ad48a3817196fb1a0fbd5a550cad5d5e73a36afb2b167a73615eb02",
+    "missing": [
+      "2023-03-24 13:00:00+00:00"
+    ],
+    "fill": "past close / zero volume"
+  },
+  "ETH/USDT": {
+    "source_sha256": "0c5db04e1909df72b0714acb97124318e415b327184e79cc4e9218c30e6e0897",
+    "missing": [
+      "2023-03-24 13:00:00+00:00"
+    ],
+    "fill": "past close / zero volume"
+  },
+  "development": {
+    "path": "C:\\Users\\ip1ip\\Documents\\freqtrade\\ai_lab\\evaluation\\results\\development\\metrics.json",
+    "sha256": "afb80d3480e186e2deb11d38f68c5af8b0d32fc0865fa249d08e6db8ba7f4ece"
+  },
+  "validation": {
+    "path": "C:\\Users\\ip1ip\\Documents\\freqtrade\\ai_lab\\evaluation\\results\\validation\\metrics.json",
+    "sha256": "31a5c3e79997e256d6015753e12724d84130b9993b09110808939841347a0d70"
+  }
+}

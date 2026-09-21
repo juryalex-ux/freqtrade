@@ -1,0 +1,19 @@
+{
+  "threshold_feature_outcome": 0.95,
+  "suspicious_feature_outcome": [],
+  "threshold_feature_feature": 0.98,
+  "redundant_feature_pairs": [
+    {
+      "split": "development",
+      "feature_a": "body_ratio",
+      "feature_b": "return_1h",
+      "pearson": 0.9999971744170261
+    },
+    {
+      "split": "validation",
+      "feature_a": "body_ratio",
+      "feature_b": "return_1h",
+      "pearson": 0.9999998992730725
+    }
+  ]
+}

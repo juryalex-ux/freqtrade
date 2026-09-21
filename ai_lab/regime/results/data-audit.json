@@ -1,0 +1,16 @@
+{
+  "BTC/USDT": {
+    "source_sha256": "f0fe06344ad48a3817196fb1a0fbd5a550cad5d5e73a36afb2b167a73615eb02",
+    "missing": [
+      "2023-03-24 13:00:00+00:00"
+    ],
+    "fill": "past close / zero volume"
+  },
+  "ETH/USDT": {
+    "source_sha256": "0c5db04e1909df72b0714acb97124318e415b327184e79cc4e9218c30e6e0897",
+    "missing": [
+      "2023-03-24 13:00:00+00:00"
+    ],
+    "fill": "past close / zero volume"
+  }
+}

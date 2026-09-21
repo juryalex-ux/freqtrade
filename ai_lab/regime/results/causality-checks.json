@@ -1,0 +1,12 @@
+{
+  "BTC/USDT": {
+    "incremental_candles": 18288,
+    "prefix_checks": 92,
+    "future_perturbation": "PASS"
+  },
+  "ETH/USDT": {
+    "incremental_candles": 18288,
+    "prefix_checks": 92,
+    "future_perturbation": "PASS"
+  }
+}

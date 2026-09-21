@@ -1,0 +1,46 @@
+{
+  "status": "SEALED_UNEVALUATED",
+  "start_utc": "2026-04-01T00:00:00Z",
+  "end_exclusive_utc": "2026-09-01T00:00:00Z",
+  "sealed_utc": "2026-09-21T12:53:31.423392+00:00",
+  "files": [
+    {
+      "pair": "BTC/USDT",
+      "file": "shadow\\data\\BTC_USDT-1h.feather",
+      "candles": 3672,
+      "sha256": "f4f5896625b9465f31e99ba138cc9668ebb631d9e8894bbb684c1ce03b625e67",
+      "missing": 0,
+      "duplicates": 0
+    },
+    {
+      "pair": "ETH/USDT",
+      "file": "shadow\\data\\ETH_USDT-1h.feather",
+      "candles": 3672,
+      "sha256": "5f258eea8438cd403ff3fb032ab483eeb2fa6f1e06a017922586937635b2d4de",
+      "missing": 0,
+      "duplicates": 0
+    }
+  ],
+  "download_command": [
+    "C:\\Users\\ip1ip\\Documents\\freqtrade\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "freqtrade",
+    "download-data",
+    "--config",
+    "ai_lab/configs/backtest.json",
+    "--userdir",
+    "C:\\Users\\ip1ip\\Documents\\freqtrade\\ai_lab\\regime",
+    "--datadir",
+    "C:\\Users\\ip1ip\\Documents\\freqtrade\\ai_lab\\regime\\shadow\\data",
+    "--pairs",
+    "BTC/USDT",
+    "ETH/USDT",
+    "--timeframes",
+    "1h",
+    "--timerange",
+    "20260401-20260901"
+  ],
+  "rules": "No detector, strategy, performance or threshold selection applied. Future unsealing requires a separately approved protocol.",
+  "provenance_limit": "Earlier end-bounded downloads may have cached boundary candles; no shadow-window strategy or regime evaluation was performed here."
+}
