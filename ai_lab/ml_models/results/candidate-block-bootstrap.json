@@ -1,0 +1,25 @@
+{
+  "candidate": {
+    "feature_set": "A_all",
+    "model": "logistic"
+  },
+  "method": "500 paired calendar-month block resamples; within-month rows retained; only12 blocks, approximate descriptive uncertainty, cross-month dependence not fully represented",
+  "intervals_95pct": {
+    "roc_auc": {
+      "low": 0.3728189964157706,
+      "high": 0.5235872456508233
+    },
+    "pr_auc_ap": {
+      "low": 0.2576787477882463,
+      "high": 0.4366441303832367
+    },
+    "brier": {
+      "low": 0.24932164932957132,
+      "high": 0.3107167023609497
+    },
+    "profit_delta_vs_unfiltered": {
+      "low": -84.90291256025,
+      "high": 105.39940782575
+    }
+  }
+}

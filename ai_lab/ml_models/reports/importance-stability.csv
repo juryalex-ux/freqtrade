@@ -1,0 +1,16 @@
+model,feature_set,mean_fold_rank_correlation
+forest,A_all,-0.19204587506631243
+forest,B_reduced,-0.05683080716153838
+forest,C_price,0.12572721402200707
+forest,D_price_volatility,0.18741224000611215
+forest,E_no_regime,-0.017830577195254875
+hist_gradient,A_all,-0.2860603236034596
+hist_gradient,B_reduced,-0.10705517708027394
+hist_gradient,C_price,-0.04491886147776416
+hist_gradient,D_price_volatility,0.039428690522198724
+hist_gradient,E_no_regime,0.22324959596862934
+logistic,A_all,0.0937594613354466
+logistic,B_reduced,0.08090948090948091
+logistic,C_price,-0.023378159738949144
+logistic,D_price_volatility,-0.04090354090354092
+logistic,E_no_regime,-0.07120278172909751

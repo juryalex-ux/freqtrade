@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "candidate": {
+    "feature_set": "A_all",
+    "model": "logistic"
+  },
+  "do_not_retune": true,
+  "finished_utc": "2026-09-21T13:24:07.105737+00:00"
+}

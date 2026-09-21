@@ -1,0 +1,5890 @@
+[
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.41509433962264153,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24972943647056137,
+    "ece_5_bins": 0.08329710459960016,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        62,
+        0
+      ],
+      [
+        44,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.41509433962264153
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.29292929292929293,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20863243919584043,
+    "ece_5_bins": 0.03886794209374844,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        70,
+        0
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.29292929292929293
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.42265395894428154,
+    "pr_auc_ap": 0.4048268378008927,
+    "balanced_accuracy": 0.46994134897360706,
+    "precision": 0.34782608695652173,
+    "recall": 0.18181818181818182,
+    "f1": 0.23880597014925373,
+    "brier": 0.2972344652574705,
+    "ece_5_bins": 0.21120775956624438,
+    "mean_probability": 0.3656061036488119,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        47,
+        15
+      ],
+      [
+        36,
+        8
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 25,
+        "mean_probability": 0.14680017104648382,
+        "observed_rate": 0.48
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 43,
+        "mean_probability": 0.31853047231953746,
+        "observed_rate": 0.4418604651162791
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 23,
+        "mean_probability": 0.48537480084501394,
+        "observed_rate": 0.34782608695652173
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 14,
+        "mean_probability": 0.6719653093544762,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 1,
+        "mean_probability": 0.8162976504738743,
+        "observed_rate": 1.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.45123152709359604,
+    "pr_auc_ap": 0.27350982751675523,
+    "balanced_accuracy": 0.4832512315270936,
+    "precision": 0.25,
+    "recall": 0.13793103448275862,
+    "f1": 0.17777777777777778,
+    "brier": 0.2597691138464271,
+    "ece_5_bins": 0.17067920851920854,
+    "mean_probability": 0.3259794489727992,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        58,
+        12
+      ],
+      [
+        25,
+        4
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 31,
+        "mean_probability": 0.11715768291982986,
+        "observed_rate": 0.2903225806451613
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 35,
+        "mean_probability": 0.30158496376965754,
+        "observed_rate": 0.34285714285714286
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 23,
+        "mean_probability": 0.47716133372532743,
+        "observed_rate": 0.30434782608695654
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 8,
+        "mean_probability": 0.6852241015203278,
+        "observed_rate": 0.125
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 2,
+        "mean_probability": 0.8140500290046151,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.42558651026392963,
+    "pr_auc_ap": 0.3645576682342252,
+    "balanced_accuracy": 0.49523460410557185,
+    "precision": 0.3333333333333333,
+    "recall": 0.022727272727272728,
+    "f1": 0.0425531914893617,
+    "brier": 0.2692905042353707,
+    "ece_5_bins": 0.2032914035778069,
+    "mean_probability": 0.3439366278764889,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        60,
+        2
+      ],
+      [
+        43,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 11,
+        "mean_probability": 0.16383218677886555,
+        "observed_rate": 0.45454545454545453
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 62,
+        "mean_probability": 0.31696843279455844,
+        "observed_rate": 0.5
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 33,
+        "mean_probability": 0.4546389596084144,
+        "observed_rate": 0.24242424242424243
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5054187192118227,
+    "pr_auc_ap": 0.2969575910935244,
+    "balanced_accuracy": 0.4857142857142857,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.22078355963925525,
+    "ece_5_bins": 0.10981999634639264,
+    "mean_probability": 0.3374469834571875,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        68,
+        2
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 12,
+        "mean_probability": 0.1472946551653622,
+        "observed_rate": 0.4166666666666667
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 57,
+        "mean_probability": 0.32093809396251377,
+        "observed_rate": 0.3157894736842105
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 30,
+        "mean_probability": 0.4448748048137977,
+        "observed_rate": 0.2
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.45454545454545453,
+    "pr_auc_ap": 0.37677185697471627,
+    "balanced_accuracy": 0.47287390029325516,
+    "precision": 0.3076923076923077,
+    "recall": 0.09090909090909091,
+    "f1": 0.14035087719298245,
+    "brier": 0.27344134170871826,
+    "ece_5_bins": 0.15529214086729923,
+    "mean_probability": 0.34313076237313644,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        53,
+        9
+      ],
+      [
+        40,
+        4
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 16,
+        "mean_probability": 0.15877662493303557,
+        "observed_rate": 0.3125
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 54,
+        "mean_probability": 0.3039818692755704,
+        "observed_rate": 0.48148148148148145
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 34,
+        "mean_probability": 0.4752012725954704,
+        "observed_rate": 0.38235294117647056
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 2,
+        "mean_probability": 0.6297853017485486,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "A_all",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4497536945812808,
+    "pr_auc_ap": 0.27802757385195714,
+    "balanced_accuracy": 0.4945812807881773,
+    "precision": 0.2727272727272727,
+    "recall": 0.10344827586206896,
+    "f1": 0.15,
+    "brier": 0.23367741445505,
+    "ece_5_bins": 0.115371500518679,
+    "mean_probability": 0.3300360801873618,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        62,
+        8
+      ],
+      [
+        26,
+        3
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 19,
+        "mean_probability": 0.16452087861051573,
+        "observed_rate": 0.3684210526315789
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 53,
+        "mean_probability": 0.30700248524580764,
+        "observed_rate": 0.2641509433962264
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 24,
+        "mean_probability": 0.4724829999362859,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6456505094834514,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.41509433962264153,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24972943647056137,
+    "ece_5_bins": 0.08329710459960016,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        62,
+        0
+      ],
+      [
+        44,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.41509433962264153
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.29292929292929293,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20863243919584043,
+    "ece_5_bins": 0.03886794209374844,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        70,
+        0
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.29292929292929293
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4299853372434018,
+    "pr_auc_ap": 0.4082732399047354,
+    "balanced_accuracy": 0.48607038123167157,
+    "precision": 0.38095238095238093,
+    "recall": 0.18181818181818182,
+    "f1": 0.24615384615384617,
+    "brier": 0.2956034916475146,
+    "ece_5_bins": 0.1991740447676752,
+    "mean_probability": 0.34389253829934213,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        49,
+        13
+      ],
+      [
+        36,
+        8
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 25,
+        "mean_probability": 0.1410954605907064,
+        "observed_rate": 0.48
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.3090345641308304,
+        "observed_rate": 0.42857142857142855
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 21,
+        "mean_probability": 0.49199831527051313,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 11,
+        "mean_probability": 0.6773240256246497,
+        "observed_rate": 0.36363636363636365
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.45024630541871924,
+    "pr_auc_ap": 0.27820873949246216,
+    "balanced_accuracy": 0.4903940886699507,
+    "precision": 0.26666666666666666,
+    "recall": 0.13793103448275862,
+    "f1": 0.18181818181818182,
+    "brier": 0.2594832840027192,
+    "ece_5_bins": 0.1758179419448222,
+    "mean_probability": 0.3267869241012607,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        59,
+        11
+      ],
+      [
+        25,
+        4
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 29,
+        "mean_probability": 0.11719127446457324,
+        "observed_rate": 0.27586206896551724
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 36,
+        "mean_probability": 0.29373382381308555,
+        "observed_rate": 0.3611111111111111
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 24,
+        "mean_probability": 0.4706487391582501,
+        "observed_rate": 0.2916666666666667
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 7,
+        "mean_probability": 0.6665999636266872,
+        "observed_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 3,
+        "mean_probability": 0.8057237946987627,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4523460410557184,
+    "pr_auc_ap": 0.41640657708761614,
+    "balanced_accuracy": 0.5146627565982405,
+    "precision": 0.6666666666666666,
+    "recall": 0.045454545454545456,
+    "f1": 0.0851063829787234,
+    "brier": 0.2659918453702228,
+    "ece_5_bins": 0.1462932771677316,
+    "mean_probability": 0.34312071098717245,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        61,
+        1
+      ],
+      [
+        42,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 11,
+        "mean_probability": 0.16389417005544538,
+        "observed_rate": 0.5454545454545454
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 62,
+        "mean_probability": 0.31659706648097524,
+        "observed_rate": 0.43548387096774194
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 33,
+        "mean_probability": 0.45269519309727013,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4793103448275862,
+    "pr_auc_ap": 0.2923444913885776,
+    "balanced_accuracy": 0.5029556650246305,
+    "precision": 0.3333333333333333,
+    "recall": 0.034482758620689655,
+    "f1": 0.0625,
+    "brier": 0.2248863200581586,
+    "ece_5_bins": 0.12120793084803742,
+    "mean_probability": 0.3419743426631721,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        68,
+        2
+      ],
+      [
+        28,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 10,
+        "mean_probability": 0.1427937384849167,
+        "observed_rate": 0.5
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 57,
+        "mean_probability": 0.3192970795655732,
+        "observed_rate": 0.2807017543859649
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 32,
+        "mean_probability": 0.444612156361475,
+        "observed_rate": 0.25
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.45454545454545453,
+    "pr_auc_ap": 0.37677185697471627,
+    "balanced_accuracy": 0.47287390029325516,
+    "precision": 0.3076923076923077,
+    "recall": 0.09090909090909091,
+    "f1": 0.14035087719298245,
+    "brier": 0.27344134170871826,
+    "ece_5_bins": 0.15529214086729923,
+    "mean_probability": 0.34313076237313644,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        53,
+        9
+      ],
+      [
+        40,
+        4
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 16,
+        "mean_probability": 0.15877662493303557,
+        "observed_rate": 0.3125
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 54,
+        "mean_probability": 0.3039818692755704,
+        "observed_rate": 0.48148148148148145
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 34,
+        "mean_probability": 0.4752012725954704,
+        "observed_rate": 0.38235294117647056
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 2,
+        "mean_probability": 0.6297853017485486,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "B_reduced",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.44778325123152707,
+    "pr_auc_ap": 0.27724684610838696,
+    "balanced_accuracy": 0.4945812807881773,
+    "precision": 0.2727272727272727,
+    "recall": 0.10344827586206896,
+    "f1": 0.15,
+    "brier": 0.23398112062432544,
+    "ece_5_bins": 0.1158153798986844,
+    "mean_probability": 0.3304799595673672,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        62,
+        8
+      ],
+      [
+        26,
+        3
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 19,
+        "mean_probability": 0.16452087861051573,
+        "observed_rate": 0.3684210526315789
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 53,
+        "mean_probability": 0.30783161842732715,
+        "observed_rate": 0.2641509433962264
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 24,
+        "mean_probability": 0.4724829999362859,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6456505094834514,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.41509433962264153,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24972943647056137,
+    "ece_5_bins": 0.08329710459960016,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        62,
+        0
+      ],
+      [
+        44,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.41509433962264153
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.29292929292929293,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20863243919584043,
+    "ece_5_bins": 0.03886794209374844,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        70,
+        0
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.29292929292929293
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4303519061583578,
+    "pr_auc_ap": 0.41036597268826,
+    "balanced_accuracy": 0.5054985337243402,
+    "precision": 0.42857142857142855,
+    "recall": 0.20454545454545456,
+    "f1": 0.27692307692307694,
+    "brier": 0.2928960221006502,
+    "ece_5_bins": 0.171204573663016,
+    "mean_probability": 0.3411038607019999,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        50,
+        12
+      ],
+      [
+        35,
+        9
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 21,
+        "mean_probability": 0.12067685992725713,
+        "observed_rate": 0.5714285714285714
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.30334212067830874,
+        "observed_rate": 0.37254901960784315
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 28,
+        "mean_probability": 0.4992875672106262,
+        "observed_rate": 0.35714285714285715
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 6,
+        "mean_probability": 0.6953825232413845,
+        "observed_rate": 0.5
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.47093596059113296,
+    "pr_auc_ap": 0.27371430659201407,
+    "balanced_accuracy": 0.41009852216748766,
+    "precision": 0.0625,
+    "recall": 0.034482758620689655,
+    "f1": 0.044444444444444446,
+    "brier": 0.2534707393766545,
+    "ece_5_bins": 0.13532968988111707,
+    "mean_probability": 0.33512412027901606,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        55,
+        15
+      ],
+      [
+        28,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 27,
+        "mean_probability": 0.1255490483220742,
+        "observed_rate": 0.2962962962962963
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 39,
+        "mean_probability": 0.3086823180109778,
+        "observed_rate": 0.28205128205128205
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 25,
+        "mean_probability": 0.4847690130623412,
+        "observed_rate": 0.36
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 6,
+        "mean_probability": 0.6590158928796993,
+        "observed_rate": 0.16666666666666666
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 2,
+        "mean_probability": 0.8377662583308667,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4222873900293255,
+    "pr_auc_ap": 0.3774951727333139,
+    "balanced_accuracy": 0.49523460410557185,
+    "precision": 0.3333333333333333,
+    "recall": 0.022727272727272728,
+    "f1": 0.0425531914893617,
+    "brier": 0.26994541546500317,
+    "ece_5_bins": 0.18211883275361007,
+    "mean_probability": 0.3454667529961194,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        60,
+        2
+      ],
+      [
+        43,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 11,
+        "mean_probability": 0.1456911431028505,
+        "observed_rate": 0.5454545454545454
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 60,
+        "mean_probability": 0.31758061997869397,
+        "observed_rate": 0.4666666666666667
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 35,
+        "mean_probability": 0.45605817270673316,
+        "observed_rate": 0.2857142857142857
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4807881773399015,
+    "pr_auc_ap": 0.2861862795614756,
+    "balanced_accuracy": 0.4642857142857143,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2277175678428789,
+    "ece_5_bins": 0.13061923011679188,
+    "mean_probability": 0.34092976318544216,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        65,
+        5
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 14,
+        "mean_probability": 0.13645509906415648,
+        "observed_rate": 0.42857142857142855
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.3222626865467808,
+        "observed_rate": 0.27450980392156865
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 34,
+        "mean_probability": 0.4531258280757285,
+        "observed_rate": 0.2647058823529412
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5260263929618769,
+    "pr_auc_ap": 0.4311796452313314,
+    "balanced_accuracy": 0.46957478005865105,
+    "precision": 0.2727272727272727,
+    "recall": 0.06818181818181818,
+    "f1": 0.10909090909090909,
+    "brier": 0.25827049926069845,
+    "ece_5_bins": 0.10562741563719678,
+    "mean_probability": 0.3431943608011056,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        54,
+        8
+      ],
+      [
+        41,
+        3
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 15,
+        "mean_probability": 0.16026073401600535,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 52,
+        "mean_probability": 0.29206032852782854,
+        "observed_rate": 0.4230769230769231
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 39,
+        "mean_probability": 0.48173215772384675,
+        "observed_rate": 0.4358974358974359
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "C_price",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4911330049261084,
+    "pr_auc_ap": 0.35302499707691243,
+    "balanced_accuracy": 0.529064039408867,
+    "precision": 0.38461538461538464,
+    "recall": 0.1724137931034483,
+    "f1": 0.23809523809523808,
+    "brier": 0.22790140114990315,
+    "ece_5_bins": 0.14648106434920746,
+    "mean_probability": 0.3362573236546468,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        62,
+        8
+      ],
+      [
+        24,
+        5
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 23,
+        "mean_probability": 0.1693010798095324,
+        "observed_rate": 0.391304347826087
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 38,
+        "mean_probability": 0.29567194117250944,
+        "observed_rate": 0.2631578947368421
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 37,
+        "mean_probability": 0.47386423413002765,
+        "observed_rate": 0.2702702702702703
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6270397788244021,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.41509433962264153,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24972943647056137,
+    "ece_5_bins": 0.08329710459960016,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        62,
+        0
+      ],
+      [
+        44,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.41509433962264153
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.29292929292929293,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20863243919584043,
+    "ece_5_bins": 0.03886794209374844,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        70,
+        0
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.29292929292929293
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.44721407624633436,
+    "pr_auc_ap": 0.4238165863775175,
+    "balanced_accuracy": 0.49266862170087977,
+    "precision": 0.4,
+    "recall": 0.22727272727272727,
+    "f1": 0.2898550724637681,
+    "brier": 0.28978275390910796,
+    "ece_5_bins": 0.17031199371243902,
+    "mean_probability": 0.3589217574883036,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        47,
+        15
+      ],
+      [
+        34,
+        10
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 23,
+        "mean_probability": 0.12958637687929098,
+        "observed_rate": 0.4782608695652174
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 45,
+        "mean_probability": 0.3114629069310474,
+        "observed_rate": 0.4
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 25,
+        "mean_probability": 0.4869054206129679,
+        "observed_rate": 0.36
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 13,
+        "mean_probability": 0.6828271767934739,
+        "observed_rate": 0.46153846153846156
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.45467980295566496,
+    "pr_auc_ap": 0.2677023859365887,
+    "balanced_accuracy": 0.4445812807881773,
+    "precision": 0.16666666666666666,
+    "recall": 0.10344827586206896,
+    "f1": 0.1276595744680851,
+    "brier": 0.2596158983860927,
+    "ece_5_bins": 0.15779931266081917,
+    "mean_probability": 0.3351054804536615,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        55,
+        15
+      ],
+      [
+        26,
+        3
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 26,
+        "mean_probability": 0.1199237431558303,
+        "observed_rate": 0.2692307692307692
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 43,
+        "mean_probability": 0.3060148368300954,
+        "observed_rate": 0.3488372093023256
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 20,
+        "mean_probability": 0.4887924239124154,
+        "observed_rate": 0.3
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 8,
+        "mean_probability": 0.6729818105502129,
+        "observed_rate": 0.125
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 2,
+        "mean_probability": 0.8695421482583885,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.44868035190615835,
+    "pr_auc_ap": 0.40362721546839586,
+    "balanced_accuracy": 0.5065982404692082,
+    "precision": 0.5,
+    "recall": 0.045454545454545456,
+    "f1": 0.08333333333333333,
+    "brier": 0.2676718809083557,
+    "ece_5_bins": 0.14622580271450505,
+    "mean_probability": 0.34561480799844196,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        60,
+        2
+      ],
+      [
+        42,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 11,
+        "mean_probability": 0.13561408735982047,
+        "observed_rate": 0.45454545454545453
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 58,
+        "mean_probability": 0.3116527986050109,
+        "observed_rate": 0.4482758620689655
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 37,
+        "mean_probability": 0.46128519912935656,
+        "observed_rate": 0.35135135135135137
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.49408866995073897,
+    "pr_auc_ap": 0.307697859555824,
+    "balanced_accuracy": 0.5130541871921183,
+    "precision": 0.4,
+    "recall": 0.06896551724137931,
+    "f1": 0.11764705882352941,
+    "brier": 0.2283394471051884,
+    "ece_5_bins": 0.13680057682113902,
+    "mean_probability": 0.34245261365241114,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        67,
+        3
+      ],
+      [
+        27,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 13,
+        "mean_probability": 0.12921352485753618,
+        "observed_rate": 0.46153846153846156
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.3134560023739318,
+        "observed_rate": 0.24489795918367346
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 37,
+        "mean_probability": 0.4557753733004885,
+        "observed_rate": 0.2972972972972973
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.500366568914956,
+    "pr_auc_ap": 0.3960317998194198,
+    "balanced_accuracy": 0.45344574780058655,
+    "precision": 0.23076923076923078,
+    "recall": 0.06818181818181818,
+    "f1": 0.10526315789473684,
+    "brier": 0.2662326684746243,
+    "ece_5_bins": 0.15501102584918025,
+    "mean_probability": 0.3348822214049856,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        52,
+        10
+      ],
+      [
+        41,
+        3
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 15,
+        "mean_probability": 0.15174693270761683,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 53,
+        "mean_probability": 0.2878673466762911,
+        "observed_rate": 0.4716981132075472
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 38,
+        "mean_probability": 0.4727458448544944,
+        "observed_rate": 0.3684210526315789
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "D_price_volatility",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4724137931034483,
+    "pr_auc_ap": 0.3217745877454435,
+    "balanced_accuracy": 0.5504926108374384,
+    "precision": 0.5,
+    "recall": 0.1724137931034483,
+    "f1": 0.2564102564102564,
+    "brier": 0.2291396053702891,
+    "ece_5_bins": 0.1668099832500564,
+    "mean_probability": 0.3298711845726867,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        65,
+        5
+      ],
+      [
+        24,
+        5
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 22,
+        "mean_probability": 0.1623422484304638,
+        "observed_rate": 0.45454545454545453
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 44,
+        "mean_probability": 0.30218570879659046,
+        "observed_rate": 0.25
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 30,
+        "mean_probability": 0.4646170030187443,
+        "observed_rate": 0.26666666666666666
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6170121765378255,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.41509433962264153,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24972943647056137,
+    "ece_5_bins": 0.08329710459960016,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        62,
+        0
+      ],
+      [
+        44,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.41509433962264153
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.29292929292929293,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20863243919584043,
+    "ece_5_bins": 0.03886794209374844,
+    "mean_probability": 0.33179723502304137,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        70,
+        0
+      ],
+      [
+        29,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.33179723502304137,
+        "observed_rate": 0.29292929292929293
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4428152492668622,
+    "pr_auc_ap": 0.4214145792674455,
+    "balanced_accuracy": 0.4813049853372434,
+    "precision": 0.375,
+    "recall": 0.20454545454545456,
+    "f1": 0.2647058823529412,
+    "brier": 0.295621827250417,
+    "ece_5_bins": 0.18740858055089518,
+    "mean_probability": 0.3651478069960916,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        47,
+        15
+      ],
+      [
+        35,
+        9
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 22,
+        "mean_probability": 0.13124302122613626,
+        "observed_rate": 0.45454545454545453
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.31699658233919203,
+        "observed_rate": 0.42857142857142855
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 20,
+        "mean_probability": 0.4951963188402123,
+        "observed_rate": 0.4
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 15,
+        "mean_probability": 0.6921041442124035,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.45024630541871924,
+    "pr_auc_ap": 0.27282192749945344,
+    "balanced_accuracy": 0.479064039408867,
+    "precision": 0.25,
+    "recall": 0.1724137931034483,
+    "f1": 0.20408163265306123,
+    "brier": 0.2631294868122007,
+    "ece_5_bins": 0.1596592339311189,
+    "mean_probability": 0.3402185877066435,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        55,
+        15
+      ],
+      [
+        24,
+        5
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 25,
+        "mean_probability": 0.1138812313187993,
+        "observed_rate": 0.28
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 42,
+        "mean_probability": 0.2997775530694877,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 21,
+        "mean_probability": 0.48968931002168653,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 8,
+        "mean_probability": 0.6720296633081502,
+        "observed_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 3,
+        "mean_probability": 0.8614131180495394,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.43914956011730205,
+    "pr_auc_ap": 0.37196156415894005,
+    "balanced_accuracy": 0.5032991202346041,
+    "precision": 0.5,
+    "recall": 0.022727272727272728,
+    "f1": 0.043478260869565216,
+    "brier": 0.26674832165873696,
+    "ece_5_bins": 0.1139514145202467,
+    "mean_probability": 0.3467080364449569,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        61,
+        1
+      ],
+      [
+        43,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 14,
+        "mean_probability": 0.15099114411670597,
+        "observed_rate": 0.42857142857142855
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.3180828420465836,
+        "observed_rate": 0.43137254901960786
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 41,
+        "mean_probability": 0.44914514393062915,
+        "observed_rate": 0.3902439024390244
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4995073891625616,
+    "pr_auc_ap": 0.2920653870421869,
+    "balanced_accuracy": 0.4958128078817734,
+    "precision": 0.25,
+    "recall": 0.034482758620689655,
+    "f1": 0.06060606060606061,
+    "brier": 0.22472346878437993,
+    "ece_5_bins": 0.1385271572032516,
+    "mean_probability": 0.3453504886719279,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        67,
+        3
+      ],
+      [
+        28,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 13,
+        "mean_probability": 0.1336734544384216,
+        "observed_rate": 0.46153846153846156
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 46,
+        "mean_probability": 0.31465147640922764,
+        "observed_rate": 0.2391304347826087
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 40,
+        "mean_probability": 0.4494493888999229,
+        "observed_rate": 0.3
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.46041055718475077,
+    "pr_auc_ap": 0.37088194324326385,
+    "balanced_accuracy": 0.45344574780058655,
+    "precision": 0.23076923076923078,
+    "recall": 0.06818181818181818,
+    "f1": 0.10526315789473684,
+    "brier": 0.2724774595760098,
+    "ece_5_bins": 0.1929265248056636,
+    "mean_probability": 0.3453640220107138,
+    "prevalence": 0.41509433962264153,
+    "confusion_matrix": [
+      [
+        52,
+        10
+      ],
+      [
+        41,
+        3
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 12,
+        "mean_probability": 0.15216221725953916,
+        "observed_rate": 0.4166666666666667
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 60,
+        "mean_probability": 0.3042206790792198,
+        "observed_rate": 0.48333333333333334
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 33,
+        "mean_probability": 0.4813273798302418,
+        "observed_rate": 0.30303030303030304
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6455954468700192,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "profitable_after_fees",
+    "feature_set": "E_no_regime",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.47413793103448276,
+    "pr_auc_ap": 0.320509082614569,
+    "balanced_accuracy": 0.5605911330049261,
+    "precision": 0.5,
+    "recall": 0.20689655172413793,
+    "f1": 0.2926829268292683,
+    "brier": 0.23060616925700725,
+    "ece_5_bins": 0.12808304364936965,
+    "mean_probability": 0.3272753638635713,
+    "prevalence": 0.29292929292929293,
+    "confusion_matrix": [
+      [
+        64,
+        6
+      ],
+      [
+        23,
+        6
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 20,
+        "mean_probability": 0.16800099253014905,
+        "observed_rate": 0.4
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.28988973238371424,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 27,
+        "mean_probability": 0.48056823120759223,
+        "observed_rate": 0.25925925925925924
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6201006808278627,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.3113207547169811,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21676676482149218,
+    "ece_5_bins": 0.048647943657073256,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.3113207547169811
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.26262626262626265,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19365371097198059,
+    "ece_5_bins": 4.654843364521044e-05,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.26262626262626265
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4138646741386468,
+    "pr_auc_ap": 0.2925920478485836,
+    "balanced_accuracy": 0.43980904939809046,
+    "precision": 0.08333333333333333,
+    "recall": 0.030303030303030304,
+    "f1": 0.044444444444444446,
+    "brier": 0.2592828196554026,
+    "ece_5_bins": 0.15670055308138225,
+    "mean_probability": 0.28577166147265765,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        62,
+        11
+      ],
+      [
+        32,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 37,
+        "mean_probability": 0.13691769315380878,
+        "observed_rate": 0.3783783783783784
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.2950039972351329,
+        "observed_rate": 0.30612244897959184
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.48476745244602476,
+        "observed_rate": 0.21428571428571427
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 5,
+        "mean_probability": 0.632856607423953,
+        "observed_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 1.0,
+        "n": 1,
+        "mean_probability": 0.8196182335251578,
+        "observed_rate": 1.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.48472075869336145,
+    "pr_auc_ap": 0.2699152370349697,
+    "balanced_accuracy": 0.4973656480505796,
+    "precision": 0.25,
+    "recall": 0.07692307692307693,
+    "f1": 0.11764705882352941,
+    "brier": 0.22172776003072756,
+    "ece_5_bins": 0.1352238049399693,
+    "mean_probability": 0.25668366474293525,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        67,
+        6
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 42,
+        "mean_probability": 0.11933959667254322,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 39,
+        "mean_probability": 0.2864467418445869,
+        "observed_rate": 0.2564102564102564
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.4800705673254831,
+        "observed_rate": 0.21428571428571427
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 4,
+        "mean_probability": 0.6267522187020309,
+        "observed_rate": 0.25
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.37608966376089664,
+    "pr_auc_ap": 0.25569170011096687,
+    "balanced_accuracy": 0.4931506849315068,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24227051283613102,
+    "ece_5_bins": 0.11788050967093408,
+    "mean_probability": 0.2708516299762905,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        72,
+        1
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 30,
+        "mean_probability": 0.153582312539463,
+        "observed_rate": 0.43333333333333335
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 66,
+        "mean_probability": 0.29906644786700876,
+        "observed_rate": 0.2878787878787879
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 10,
+        "mean_probability": 0.4364417842080325,
+        "observed_rate": 0.1
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.49209694415173866,
+    "pr_auc_ap": 0.2904142166446801,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20451754613574813,
+    "ece_5_bins": 0.06450011862644861,
+    "mean_probability": 0.27063474819707967,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 22,
+        "mean_probability": 0.14562109835210169,
+        "observed_rate": 0.2727272727272727
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 66,
+        "mean_probability": 0.2860683297551185,
+        "observed_rate": 0.24242424242424243
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 11,
+        "mean_probability": 0.42806055853880276,
+        "observed_rate": 0.36363636363636365
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3700705687007057,
+    "pr_auc_ap": 0.264397098078092,
+    "balanced_accuracy": 0.48775425487754254,
+    "precision": 0.2,
+    "recall": 0.030303030303030304,
+    "f1": 0.05263157894736842,
+    "brier": 0.2488604907017813,
+    "ece_5_bins": 0.162132500064237,
+    "mean_probability": 0.2726332278488261,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        69,
+        4
+      ],
+      [
+        32,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 35,
+        "mean_probability": 0.15304395921666356,
+        "observed_rate": 0.45714285714285713
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 53,
+        "mean_probability": 0.28615540495015745,
+        "observed_rate": 0.24528301886792453
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 17,
+        "mean_probability": 0.45574296978474177,
+        "observed_rate": 0.23529411764705882
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6287166306933917,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "A_all",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4457323498419389,
+    "pr_auc_ap": 0.23894461391348298,
+    "balanced_accuracy": 0.4794520547945205,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2174552562055304,
+    "ece_5_bins": 0.11941654874351007,
+    "mean_probability": 0.26270728306925195,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        70,
+        3
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 35,
+        "mean_probability": 0.14551118140354916,
+        "observed_rate": 0.3142857142857143
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.2843911027551865,
+        "observed_rate": 0.2653061224489796
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.45535078076139507,
+        "observed_rate": 0.14285714285714285
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6050547090680501,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.3113207547169811,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21676676482149218,
+    "ece_5_bins": 0.048647943657073256,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.3113207547169811
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.26262626262626265,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19365371097198059,
+    "ece_5_bins": 4.654843364521044e-05,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.26262626262626265
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4026567040265671,
+    "pr_auc_ap": 0.28874434460648724,
+    "balanced_accuracy": 0.47405562474055624,
+    "precision": 0.14285714285714285,
+    "recall": 0.030303030303030304,
+    "f1": 0.05,
+    "brier": 0.2562592986523293,
+    "ece_5_bins": 0.15877865151563292,
+    "mean_probability": 0.2610354701717086,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        67,
+        6
+      ],
+      [
+        32,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 38,
+        "mean_probability": 0.12884726465580348,
+        "observed_rate": 0.3684210526315789
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.27496892807551915,
+        "observed_rate": 0.3137254901960784
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.47885355019030407,
+        "observed_rate": 0.14285714285714285
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6820662489216143,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4794520547945206,
+    "pr_auc_ap": 0.26401743304894604,
+    "balanced_accuracy": 0.4973656480505796,
+    "precision": 0.25,
+    "recall": 0.07692307692307693,
+    "f1": 0.11764705882352941,
+    "brier": 0.22177439171461275,
+    "ece_5_bins": 0.120705846035404,
+    "mean_probability": 0.25719797803938466,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        67,
+        6
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 40,
+        "mean_probability": 0.11890901335492612,
+        "observed_rate": 0.275
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 40,
+        "mean_probability": 0.2785573218641108,
+        "observed_rate": 0.275
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 16,
+        "mean_probability": 0.47890505741581707,
+        "observed_rate": 0.1875
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6338218328281783,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3632212536322126,
+    "pr_auc_ap": 0.25083728703473146,
+    "balanced_accuracy": 0.4863013698630137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24646550092551875,
+    "ece_5_bins": 0.11778019663277384,
+    "mean_probability": 0.2730960490673284,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        71,
+        2
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 27,
+        "mean_probability": 0.1521678417224314,
+        "observed_rate": 0.4444444444444444
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 65,
+        "mean_probability": 0.2865108992696268,
+        "observed_rate": 0.2923076923076923
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.4440315015789584,
+        "observed_rate": 0.14285714285714285
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4978925184404637,
+    "pr_auc_ap": 0.28002995434873873,
+    "balanced_accuracy": 0.4931506849315068,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20459498053492126,
+    "ece_5_bins": 0.049004813275428875,
+    "mean_probability": 0.2744545760072781,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        72,
+        1
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 21,
+        "mean_probability": 0.15046491691554925,
+        "observed_rate": 0.23809523809523808
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 66,
+        "mean_probability": 0.28462559415586686,
+        "observed_rate": 0.2727272727272727
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 12,
+        "mean_probability": 0.43549587960056496,
+        "observed_rate": 0.25
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3692403486924035,
+    "pr_auc_ap": 0.26642950903640217,
+    "balanced_accuracy": 0.48775425487754254,
+    "precision": 0.2,
+    "recall": 0.030303030303030304,
+    "f1": 0.05263157894736842,
+    "brier": 0.24856287556115123,
+    "ece_5_bins": 0.14605216027194917,
+    "mean_probability": 0.27214765706882854,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        69,
+        4
+      ],
+      [
+        32,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 34,
+        "mean_probability": 0.1524429803010179,
+        "observed_rate": 0.4411764705882353
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 54,
+        "mean_probability": 0.28358153415742715,
+        "observed_rate": 0.25925925925925924
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 17,
+        "mean_probability": 0.4539860188647601,
+        "observed_rate": 0.23529411764705882
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6334251538592313,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "B_reduced",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.44994731296101165,
+    "pr_auc_ap": 0.23964425033432585,
+    "balanced_accuracy": 0.4794520547945205,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21803233456284635,
+    "ece_5_bins": 0.15131122063258418,
+    "mean_probability": 0.2626690687792695,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        70,
+        3
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 37,
+        "mean_probability": 0.14897874279083576,
+        "observed_rate": 0.35135135135135137
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 47,
+        "mean_probability": 0.28712775062520585,
+        "observed_rate": 0.23404255319148937
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.4565452810283991,
+        "observed_rate": 0.14285714285714285
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.605386112104492,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.3113207547169811,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21676676482149218,
+    "ece_5_bins": 0.048647943657073256,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.3113207547169811
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.26262626262626265,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19365371097198059,
+    "ece_5_bins": 4.654843364521044e-05,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.26262626262626265
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3540888335408884,
+    "pr_auc_ap": 0.2720022354439582,
+    "balanced_accuracy": 0.49460356994603566,
+    "precision": 0.25,
+    "recall": 0.030303030303030304,
+    "f1": 0.05405405405405406,
+    "brier": 0.25642263564953505,
+    "ece_5_bins": 0.14814956100431872,
+    "mean_probability": 0.2590720349395766,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        70,
+        3
+      ],
+      [
+        32,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 35,
+        "mean_probability": 0.13436461246453923,
+        "observed_rate": 0.42857142857142855
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 57,
+        "mean_probability": 0.279903312949505,
+        "observed_rate": 0.2807017543859649
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 13,
+        "mean_probability": 0.46790342961741954,
+        "observed_rate": 0.07692307692307693
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.7216408441880101,
+        "observed_rate": 1.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4731296101159115,
+    "pr_auc_ap": 0.2435824258006152,
+    "balanced_accuracy": 0.4726027397260274,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.22025261007005548,
+    "ece_5_bins": 0.12139062285710565,
+    "mean_probability": 0.2679985503433222,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        69,
+        4
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 36,
+        "mean_probability": 0.13928353596335621,
+        "observed_rate": 0.25
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 46,
+        "mean_probability": 0.2878888068671065,
+        "observed_rate": 0.32608695652173914
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 15,
+        "mean_probability": 0.46337934233028627,
+        "observed_rate": 0.13333333333333333
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 2,
+        "mean_probability": 0.6620369692334437,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.35948526359485267,
+    "pr_auc_ap": 0.24773609094762922,
+    "balanced_accuracy": 0.4931506849315068,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24755027537149935,
+    "ece_5_bins": 0.11774626269784358,
+    "mean_probability": 0.26314276773947876,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        72,
+        1
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 30,
+        "mean_probability": 0.14020049224022219,
+        "observed_rate": 0.43333333333333335
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 68,
+        "mean_probability": 0.2964497316210114,
+        "observed_rate": 0.27941176470588236
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 8,
+        "mean_probability": 0.44106710786866365,
+        "observed_rate": 0.125
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4562697576396206,
+    "pr_auc_ap": 0.24187860964663072,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2101997498057252,
+    "ece_5_bins": 0.06884053489634151,
+    "mean_probability": 0.27169955073905655,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 21,
+        "mean_probability": 0.13388219787697972,
+        "observed_rate": 0.19047619047619047
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 69,
+        "mean_probability": 0.29318833519996834,
+        "observed_rate": 0.3188405797101449
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 9,
+        "mean_probability": 0.4285260265502447,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.43399750933997516,
+    "pr_auc_ap": 0.28074293308817555,
+    "balanced_accuracy": 0.4657534246575342,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24059574620741506,
+    "ece_5_bins": 0.132054134189452,
+    "mean_probability": 0.27468204506206223,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        68,
+        5
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 31,
+        "mean_probability": 0.16320255729833363,
+        "observed_rate": 0.45161290322580644
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 66,
+        "mean_probability": 0.2949231220327137,
+        "observed_rate": 0.2878787878787879
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 8,
+        "mean_probability": 0.4984377294173797,
+        "observed_rate": 0.0
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6045896108321133,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "C_price",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4357218124341412,
+    "pr_auc_ap": 0.23204347702697464,
+    "balanced_accuracy": 0.4726027397260274,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21889836836933416,
+    "ece_5_bins": 0.07740162040663309,
+    "mean_probability": 0.2631260997939857,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        69,
+        4
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 39,
+        "mean_probability": 0.15880414691471684,
+        "observed_rate": 0.2564102564102564
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 49,
+        "mean_probability": 0.2963128576540726,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 11,
+        "mean_probability": 0.48516292044373405,
+        "observed_rate": 0.18181818181818182
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.3113207547169811,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21676676482149218,
+    "ece_5_bins": 0.048647943657073256,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.3113207547169811
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.26262626262626265,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19365371097198059,
+    "ece_5_bins": 4.654843364521044e-05,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.26262626262626265
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.39020340390203406,
+    "pr_auc_ap": 0.2854681320013047,
+    "balanced_accuracy": 0.48235782482357825,
+    "precision": 0.2222222222222222,
+    "recall": 0.06060606060606061,
+    "f1": 0.09523809523809523,
+    "brier": 0.2565640001043687,
+    "ece_5_bins": 0.15804957405815165,
+    "mean_probability": 0.2735003002877946,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        66,
+        7
+      ],
+      [
+        31,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 37,
+        "mean_probability": 0.13604439584830014,
+        "observed_rate": 0.40540540540540543
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.2859852126232151,
+        "observed_rate": 0.29411764705882354
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 15,
+        "mean_probability": 0.49321990335993277,
+        "observed_rate": 0.13333333333333333
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.6579482633120525,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4562697576396207,
+    "pr_auc_ap": 0.2411391780651554,
+    "balanced_accuracy": 0.47681770284510006,
+    "precision": 0.18181818181818182,
+    "recall": 0.07692307692307693,
+    "f1": 0.10810810810810811,
+    "brier": 0.22767391100307294,
+    "ece_5_bins": 0.14524192993801766,
+    "mean_probability": 0.27046484191736314,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        64,
+        9
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 38,
+        "mean_probability": 0.13463423285422746,
+        "observed_rate": 0.2894736842105263
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 40,
+        "mean_probability": 0.2770608323629239,
+        "observed_rate": 0.3
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 19,
+        "mean_probability": 0.4826041161241615,
+        "observed_rate": 0.15789473684210525
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 2,
+        "mean_probability": 0.70400350024114,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.38563719385637196,
+    "pr_auc_ap": 0.2598080621334984,
+    "balanced_accuracy": 0.4863013698630137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24459086998460414,
+    "ece_5_bins": 0.1188857276187192,
+    "mean_probability": 0.2660604947952943,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        71,
+        2
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 30,
+        "mean_probability": 0.14334208867861611,
+        "observed_rate": 0.43333333333333335
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 67,
+        "mean_probability": 0.2961975597073713,
+        "observed_rate": 0.2835820895522388
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 9,
+        "mean_probability": 0.4507681430609819,
+        "observed_rate": 0.1111111111111111
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4884088514225501,
+    "pr_auc_ap": 0.2575771534062608,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20850303196908557,
+    "ece_5_bins": 0.05383973234297202,
+    "mean_probability": 0.27505181428947395,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 23,
+        "mean_probability": 0.13761396539711915,
+        "observed_rate": 0.21739130434782608
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 64,
+        "mean_probability": 0.2935137008159079,
+        "observed_rate": 0.296875
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 12,
+        "mean_probability": 0.440010963192173,
+        "observed_rate": 0.16666666666666666
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3931091739310918,
+    "pr_auc_ap": 0.2604857995769756,
+    "balanced_accuracy": 0.4794520547945205,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2447403128124979,
+    "ece_5_bins": 0.12865862318156282,
+    "mean_probability": 0.2583115545720371,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        70,
+        3
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 29,
+        "mean_probability": 0.14753562672653678,
+        "observed_rate": 0.4482758620689655
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 66,
+        "mean_probability": 0.2741374574034177,
+        "observed_rate": 0.2878787878787879
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 11,
+        "mean_probability": 0.45540176554007217,
+        "observed_rate": 0.09090909090909091
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "D_price_volatility",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4488935721812435,
+    "pr_auc_ap": 0.23889874731435584,
+    "balanced_accuracy": 0.4863013698630137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21567430479568295,
+    "ece_5_bins": 0.10354673355624738,
+    "mean_probability": 0.25418117404833224,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        71,
+        2
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 37,
+        "mean_probability": 0.1474704001177892,
+        "observed_rate": 0.2972972972972973
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.2847629261529403,
+        "observed_rate": 0.27450980392156865
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 11,
+        "mean_probability": 0.47132929023879433,
+        "observed_rate": 0.09090909090909091
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.3113207547169811,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21676676482149218,
+    "ece_5_bins": 0.048647943657073256,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.3113207547169811
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.26262626262626265,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19365371097198059,
+    "ece_5_bins": 4.654843364521044e-05,
+    "mean_probability": 0.26267281105990786,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        73,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.26267281105990786,
+        "observed_rate": 0.26262626262626265
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4076380240763803,
+    "pr_auc_ap": 0.2907804095224489,
+    "balanced_accuracy": 0.45496056454960565,
+    "precision": 0.15384615384615385,
+    "recall": 0.06060606060606061,
+    "f1": 0.08695652173913043,
+    "brier": 0.25956451494349236,
+    "ece_5_bins": 0.16174781783153092,
+    "mean_probability": 0.28062712656608435,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        62,
+        11
+      ],
+      [
+        31,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 35,
+        "mean_probability": 0.13096232821796172,
+        "observed_rate": 0.37142857142857144
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 53,
+        "mean_probability": 0.28711173349627683,
+        "observed_rate": 0.32075471698113206
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 13,
+        "mean_probability": 0.5112832690488736,
+        "observed_rate": 0.15384615384615385
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 5,
+        "mean_probability": 0.6598379110876508,
+        "observed_rate": 0.2
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.46417281348788203,
+    "pr_auc_ap": 0.2606120949884517,
+    "balanced_accuracy": 0.4905163329820864,
+    "precision": 0.2222222222222222,
+    "recall": 0.07692307692307693,
+    "f1": 0.11428571428571428,
+    "brier": 0.22650684592192505,
+    "ece_5_bins": 0.12652022894304227,
+    "mean_probability": 0.2676498183943407,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        66,
+        7
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 39,
+        "mean_probability": 0.1278439660984428,
+        "observed_rate": 0.28205128205128205
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 40,
+        "mean_probability": 0.27513890015961706,
+        "observed_rate": 0.25
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 17,
+        "mean_probability": 0.49410670120192585,
+        "observed_rate": 0.29411764705882354
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 3,
+        "mean_probability": 0.7020158054610112,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.39186384391863843,
+    "pr_auc_ap": 0.26287544030974774,
+    "balanced_accuracy": 0.4863013698630137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.24213313275286924,
+    "ece_5_bins": 0.11033125083335235,
+    "mean_probability": 0.27514676320358034,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        71,
+        2
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 28,
+        "mean_probability": 0.15125793412936014,
+        "observed_rate": 0.42857142857142855
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 67,
+        "mean_probability": 0.2984172834382601,
+        "observed_rate": 0.2835820895522388
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 11,
+        "mean_probability": 0.44876152305400063,
+        "observed_rate": 0.18181818181818182
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5126448893572182,
+    "pr_auc_ap": 0.2832624676688396,
+    "balanced_accuracy": 0.4931506849315068,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20330037887387847,
+    "ece_5_bins": 0.05737587121364113,
+    "mean_probability": 0.2807779738594939,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        72,
+        1
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 18,
+        "mean_probability": 0.14183154728280303,
+        "observed_rate": 0.2222222222222222
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 68,
+        "mean_probability": 0.28684465043940083,
+        "observed_rate": 0.29411764705882354
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 13,
+        "mean_probability": 0.44143194854770623,
+        "observed_rate": 0.15384615384615385
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.36757990867579915,
+    "pr_auc_ap": 0.25788468853356084,
+    "balanced_accuracy": 0.4657534246575342,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2500033173094472,
+    "ece_5_bins": 0.1561073465607893,
+    "mean_probability": 0.2754854418841186,
+    "prevalence": 0.3113207547169811,
+    "confusion_matrix": [
+      [
+        68,
+        5
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 32,
+        "mean_probability": 0.15084497037926403,
+        "observed_rate": 0.46875
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 59,
+        "mean_probability": 0.29048143722361996,
+        "observed_rate": 0.2542372881355932
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.4734666369113734,
+        "observed_rate": 0.21428571428571427
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6074800746273109,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_0_5_percent",
+    "feature_set": "E_no_regime",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.452054794520548,
+    "pr_auc_ap": 0.24103874805102618,
+    "balanced_accuracy": 0.4863013698630137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21545104730839193,
+    "ece_5_bins": 0.10985622138673233,
+    "mean_probability": 0.26124310376001186,
+    "prevalence": 0.26262626262626265,
+    "confusion_matrix": [
+      [
+        71,
+        2
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 37,
+        "mean_probability": 0.14847704533722536,
+        "observed_rate": 0.2972972972972973
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 50,
+        "mean_probability": 0.29649061249078407,
+        "observed_rate": 0.26
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 12,
+        "mean_probability": 0.46207383085205295,
+        "observed_rate": 0.16666666666666666
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.25471698113207547,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19166255629143852,
+    "ece_5_bins": 0.04273541431179889,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.25471698113207547
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.23232323232323232,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.17876293140155197,
+    "ece_5_bins": 0.02034166550295574,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.23232323232323232
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3506797937177684,
+    "pr_auc_ap": 0.2023803131622371,
+    "balanced_accuracy": 0.4936708860759494,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2227476668663458,
+    "ece_5_bins": 0.15365351754901485,
+    "mean_probability": 0.1706152694151485,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        78,
+        1
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 75,
+        "mean_probability": 0.1253196379854011,
+        "observed_rate": 0.29333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 27,
+        "mean_probability": 0.2516449537698027,
+        "observed_rate": 0.18518518518518517
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 4,
+        "mean_probability": 0.47295798932899624,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.47254004576659037,
+    "pr_auc_ap": 0.267144241807368,
+    "balanced_accuracy": 0.5303203661327232,
+    "precision": 0.5,
+    "recall": 0.08695652173913043,
+    "f1": 0.14814814814814814,
+    "brier": 0.19649724530159096,
+    "ece_5_bins": 0.16837275274319058,
+    "mean_probability": 0.23283034430422728,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        74,
+        2
+      ],
+      [
+        21,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 50,
+        "mean_probability": 0.13381301564542641,
+        "observed_rate": 0.3
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 35,
+        "mean_probability": 0.27730016849101363,
+        "observed_rate": 0.11428571428571428
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 12,
+        "mean_probability": 0.4477462071687308,
+        "observed_rate": 0.25
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 2,
+        "mean_probability": 0.6405464603184698,
+        "observed_rate": 0.5
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4097515236755743,
+    "pr_auc_ap": 0.222481825108255,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20760240166573693,
+    "ece_5_bins": 0.11715773498162523,
+    "mean_probability": 0.22615008340785284,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 44,
+        "mean_probability": 0.14264987424068318,
+        "observed_rate": 0.3181818181818182
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 60,
+        "mean_probability": 0.28114333161027744,
+        "observed_rate": 0.21666666666666667
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 2,
+        "mean_probability": 0.4133572390128442,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4937070938215103,
+    "pr_auc_ap": 0.2931138469531632,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.1848870199545811,
+    "ece_5_bins": 0.06171054456984131,
+    "mean_probability": 0.23336002363815472,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 34,
+        "mean_probability": 0.14696027099651504,
+        "observed_rate": 0.23529411764705882
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 64,
+        "mean_probability": 0.27638591752973607,
+        "observed_rate": 0.234375
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.4172944043926925,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3558368495077356,
+    "pr_auc_ap": 0.20314777000793782,
+    "balanced_accuracy": 0.4873417721518987,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2183908738958087,
+    "ece_5_bins": 0.1419203576099229,
+    "mean_probability": 0.22075680593443409,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        77,
+        2
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 53,
+        "mean_probability": 0.1448741841735678,
+        "observed_rate": 0.32075471698113206
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 47,
+        "mean_probability": 0.2761861322267396,
+        "observed_rate": 0.2127659574468085
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 6,
+        "mean_probability": 0.4568569088656929,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "A_all",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4147597254004577,
+    "pr_auc_ap": 0.2312225806980862,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.1961706733698298,
+    "ece_5_bins": 0.14767322051879642,
+    "mean_probability": 0.2254670629533784,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 50,
+        "mean_probability": 0.1470159040102362,
+        "observed_rate": 0.3
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 41,
+        "mean_probability": 0.2789516054453274,
+        "observed_rate": 0.14634146341463414
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 8,
+        "mean_probability": 0.44167852607677877,
+        "observed_rate": 0.25
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.25471698113207547,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19166255629143852,
+    "ece_5_bins": 0.04273541431179889,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.25471698113207547
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.23232323232323232,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.17876293140155197,
+    "ece_5_bins": 0.02034166550295574,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.23232323232323232
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.36052508204406936,
+    "pr_auc_ap": 0.20218703457937226,
+    "balanced_accuracy": 0.4810126582278481,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2224307549763298,
+    "ece_5_bins": 0.13474903308814823,
+    "mean_probability": 0.2060307935140938,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        76,
+        3
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 56,
+        "mean_probability": 0.12996309468884135,
+        "observed_rate": 0.30357142857142855
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 45,
+        "mean_probability": 0.2689311290858018,
+        "observed_rate": 0.2222222222222222
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 5,
+        "mean_probability": 0.4918860002115495,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4645308924485126,
+    "pr_auc_ap": 0.257486134145179,
+    "balanced_accuracy": 0.5303203661327232,
+    "precision": 0.5,
+    "recall": 0.08695652173913043,
+    "f1": 0.14814814814814814,
+    "brier": 0.19525986407721763,
+    "ece_5_bins": 0.14967932591083774,
+    "mean_probability": 0.22657503919988903,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        74,
+        2
+      ],
+      [
+        21,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 48,
+        "mean_probability": 0.1313820376626675,
+        "observed_rate": 0.2916666666666667
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 42,
+        "mean_probability": 0.2788641897992263,
+        "observed_rate": 0.14285714285714285
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 8,
+        "mean_probability": 0.4727758955286494,
+        "observed_rate": 0.375
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.6300879371842778,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.39428035630567276,
+    "pr_auc_ap": 0.21450951429478812,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20928859174626172,
+    "ece_5_bins": 0.09083107758654979,
+    "mean_probability": 0.2276085468278756,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 45,
+        "mean_probability": 0.1499823526620059,
+        "observed_rate": 0.28888888888888886
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 60,
+        "mean_probability": 0.2824231598615432,
+        "observed_rate": 0.23333333333333334
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.43191050227195277,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4616704805491991,
+    "pr_auc_ap": 0.2791046460446153,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.18690617435070137,
+    "ece_5_bins": 0.0860315901623553,
+    "mean_probability": 0.23703478361929983,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 33,
+        "mean_probability": 0.1507472144278411,
+        "observed_rate": 0.2727272727272727
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 65,
+        "mean_probability": 0.2778580913498502,
+        "observed_rate": 0.2153846153846154
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.4310095644516712,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.36052508204406936,
+    "pr_auc_ap": 0.20602011604613718,
+    "balanced_accuracy": 0.4873417721518987,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21792317740521278,
+    "ece_5_bins": 0.15457795480999512,
+    "mean_probability": 0.22903524535161385,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        77,
+        2
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 50,
+        "mean_probability": 0.14892472797411582,
+        "observed_rate": 0.34
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 50,
+        "mean_probability": 0.280359714614662,
+        "observed_rate": 0.2
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 6,
+        "mean_probability": 0.46891897963869544,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "B_reduced",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4319221967963387,
+    "pr_auc_ap": 0.2346172676583771,
+    "balanced_accuracy": 0.4934210526315789,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19582075418654638,
+    "ece_5_bins": 0.14950605642820444,
+    "mean_probability": 0.22924822352986093,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        75,
+        1
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 50,
+        "mean_probability": 0.14894474543063996,
+        "observed_rate": 0.3
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 42,
+        "mean_probability": 0.28815302194902814,
+        "observed_rate": 0.14285714285714285
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 7,
+        "mean_probability": 0.44941570515215107,
+        "observed_rate": 0.2857142857142857
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.25471698113207547,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19166255629143852,
+    "ece_5_bins": 0.04273541431179889,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.25471698113207547
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.23232323232323232,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.17876293140155197,
+    "ece_5_bins": 0.02034166550295574,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.23232323232323232
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3291139240506329,
+    "pr_auc_ap": 0.2048372135705384,
+    "balanced_accuracy": 0.4936708860759494,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21935539111711178,
+    "ece_5_bins": 0.1562961698792132,
+    "mean_probability": 0.20801548454104687,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        78,
+        1
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 57,
+        "mean_probability": 0.14458111714170505,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 44,
+        "mean_probability": 0.26384398411009813,
+        "observed_rate": 0.1590909090909091
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 5,
+        "mean_probability": 0.4398764766858935,
+        "observed_rate": 0.2
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4982837528604118,
+    "pr_auc_ap": 0.243910673759862,
+    "balanced_accuracy": 0.5020022883295194,
+    "precision": 0.25,
+    "recall": 0.043478260869565216,
+    "f1": 0.07407407407407407,
+    "brier": 0.19396671283666223,
+    "ece_5_bins": 0.07869808224212028,
+    "mean_probability": 0.24855484194551125,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        73,
+        3
+      ],
+      [
+        22,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 41,
+        "mean_probability": 0.14409535622726471,
+        "observed_rate": 0.21951219512195122
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 47,
+        "mean_probability": 0.28593605375104036,
+        "observed_rate": 0.23404255319148937
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 10,
+        "mean_probability": 0.46013396546423124,
+        "observed_rate": 0.3
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.658685566346552,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.39990623534927333,
+    "pr_auc_ap": 0.2173089286655145,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20764669327118293,
+    "ece_5_bins": 0.09033216572213827,
+    "mean_probability": 0.21453516301262365,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 49,
+        "mean_probability": 0.14454609911011682,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 57,
+        "mean_probability": 0.2747012004024979,
+        "observed_rate": 0.22807017543859648
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.46081235697940504,
+    "pr_auc_ap": 0.29005879888380504,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.1887655847749578,
+    "ece_5_bins": 0.06951245226801295,
+    "mean_probability": 0.2335350743393232,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 37,
+        "mean_probability": 0.1518681025008069,
+        "observed_rate": 0.24324324324324326
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 62,
+        "mean_probability": 0.2822718155977925,
+        "observed_rate": 0.22580645161290322
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3914674167838725,
+    "pr_auc_ap": 0.206415000367216,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21010665800245892,
+    "ece_5_bins": 0.0991675095808344,
+    "mean_probability": 0.21847027199627192,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 51,
+        "mean_probability": 0.15339306682388604,
+        "observed_rate": 0.29411764705882354
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 52,
+        "mean_probability": 0.2706005680612009,
+        "observed_rate": 0.23076923076923078
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 3,
+        "mean_probability": 0.42119096146806223,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "C_price",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.43049199084668194,
+    "pr_auc_ap": 0.2203260856614885,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19144306889533072,
+    "ece_5_bins": 0.0995599139080839,
+    "mean_probability": 0.23115908938982474,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 45,
+        "mean_probability": 0.155870204141026,
+        "observed_rate": 0.26666666666666666
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 51,
+        "mean_probability": 0.2870366501826693,
+        "observed_rate": 0.21568627450980393
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 3,
+        "mean_probability": 0.410573834643448,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.25471698113207547,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19166255629143852,
+    "ece_5_bins": 0.04273541431179889,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.25471698113207547
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.23232323232323232,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.17876293140155197,
+    "ece_5_bins": 0.02034166550295574,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.23232323232323232
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.3572433192686358,
+    "pr_auc_ap": 0.20236408025328556,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21887624116806476,
+    "ece_5_bins": 0.16119273990106597,
+    "mean_probability": 0.15931837664723233,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 86,
+        "mean_probability": 0.13256579939007931,
+        "observed_rate": 0.29069767441860467
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 19,
+        "mean_probability": 0.26532532554467614,
+        "observed_rate": 0.10526315789473684
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.445907991710965,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4742562929061785,
+    "pr_auc_ap": 0.2454420908376564,
+    "balanced_accuracy": 0.5151601830663616,
+    "precision": 0.5,
+    "recall": 0.043478260869565216,
+    "f1": 0.08,
+    "brier": 0.19998362589482527,
+    "ece_5_bins": 0.1447256805332325,
+    "mean_probability": 0.23910466322605584,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        75,
+        1
+      ],
+      [
+        22,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 46,
+        "mean_probability": 0.13416868789771208,
+        "observed_rate": 0.2826086956521739
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 40,
+        "mean_probability": 0.2833316535551128,
+        "observed_rate": 0.2
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 12,
+        "mean_probability": 0.44909662071207435,
+        "observed_rate": 0.16666666666666666
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.7771764253353699,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.40318799812470696,
+    "pr_auc_ap": 0.2253299936265322,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.20964540611596513,
+    "ece_5_bins": 0.12306896379405287,
+    "mean_probability": 0.21917463864901565,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 47,
+        "mean_probability": 0.14028937802793673,
+        "observed_rate": 0.3191489361702128
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 58,
+        "mean_probability": 0.2798625810407009,
+        "observed_rate": 0.20689655172413793
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.4068812291219783,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.471395881006865,
+    "pr_auc_ap": 0.2863174725771578,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.18967588132930577,
+    "ece_5_bins": 0.047475128157618215,
+    "mean_probability": 0.23924658946132477,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 31,
+        "mean_probability": 0.13456991921883885,
+        "observed_rate": 0.1935483870967742
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 66,
+        "mean_probability": 0.28322310639602544,
+        "observed_rate": 0.24242424242424243
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 2,
+        "mean_probability": 0.41050991937473535,
+        "observed_rate": 0.5
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.4149085794655415,
+    "pr_auc_ap": 0.21483612748625408,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21291402088961436,
+    "ece_5_bins": 0.12387019511982687,
+    "mean_probability": 0.21884141049546135,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 53,
+        "mean_probability": 0.14214102669638923,
+        "observed_rate": 0.3018867924528302
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 47,
+        "mean_probability": 0.27822480994853455,
+        "observed_rate": 0.23404255319148937
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 6,
+        "mean_probability": 0.43119150500485914,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "D_price_volatility",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4516590389016018,
+    "pr_auc_ap": 0.2632174081725628,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.1937770749822471,
+    "ece_5_bins": 0.07772058302396985,
+    "mean_probability": 0.23299079679739806,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 44,
+        "mean_probability": 0.14058808140419762,
+        "observed_rate": 0.22727272727272727
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 46,
+        "mean_probability": 0.28078630673592664,
+        "observed_rate": 0.21739130434782608
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 9,
+        "mean_probability": 0.44044924347834274,
+        "observed_rate": 0.3333333333333333
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "dummy",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.25471698113207547,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.19166255629143852,
+    "ece_5_bins": 0.04273541431179889,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 106,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.25471698113207547
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "dummy",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.5,
+    "pr_auc_ap": 0.23232323232323232,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.17876293140155197,
+    "ece_5_bins": 0.02034166550295574,
+    "mean_probability": 0.21198156682027658,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 99,
+        "mean_probability": 0.21198156682027658,
+        "observed_rate": 0.23232323232323232
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "logistic",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.36802625410220347,
+    "pr_auc_ap": 0.2052023260135877,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.22135281821849379,
+    "ece_5_bins": 0.14770617393441476,
+    "mean_probability": 0.16417744616132748,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 81,
+        "mean_probability": 0.1280614497287207,
+        "observed_rate": 0.2839506172839506
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 21,
+        "mean_probability": 0.2524689499330687,
+        "observed_rate": 0.19047619047619047
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 4,
+        "mean_probability": 0.4319959791199746,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "logistic",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4702517162471396,
+    "pr_auc_ap": 0.2705964603398617,
+    "balanced_accuracy": 0.5303203661327232,
+    "precision": 0.5,
+    "recall": 0.08695652173913043,
+    "f1": 0.14814814814814814,
+    "brier": 0.19921040714958776,
+    "ece_5_bins": 0.14396891108452542,
+    "mean_probability": 0.23552015178312,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        74,
+        2
+      ],
+      [
+        21,
+        2
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 46,
+        "mean_probability": 0.13112579162131374,
+        "observed_rate": 0.2826086956521739
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 38,
+        "mean_probability": 0.2680090045386243,
+        "observed_rate": 0.15789473684210525
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 14,
+        "mean_probability": 0.4503585618188549,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.8,
+        "n": 1,
+        "mean_probability": 0.795346574016758,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "forest",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.38021565869667134,
+    "pr_auc_ap": 0.2090267595738115,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.2113402802180716,
+    "ece_5_bins": 0.08700356770500445,
+    "mean_probability": 0.22994916503705323,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        79,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 42,
+        "mean_probability": 0.14466944425234735,
+        "observed_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 62,
+        "mean_probability": 0.28135839660335493,
+        "observed_rate": 0.24193548387096775
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 2,
+        "mean_probability": 0.4271371229605271,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "forest",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.45995423340961095,
+    "pr_auc_ap": 0.2906600657799479,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.18837145863736487,
+    "ece_5_bins": 0.06994816483722405,
+    "mean_probability": 0.23699586578059217,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 33,
+        "mean_probability": 0.1445109453544461,
+        "observed_rate": 0.24242424242424243
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 65,
+        "mean_probability": 0.281227146557593,
+        "observed_rate": 0.23076923076923078
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.4139649893383575,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 99
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "hist_gradient",
+    "pair": "BTC/USDT",
+    "roc_auc": 0.35864978902953587,
+    "pr_auc_ap": 0.20235228364390934,
+    "balanced_accuracy": 0.4936708860759494,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.21861030032755188,
+    "ece_5_bins": 0.16022993816667125,
+    "mean_probability": 0.2251216477929375,
+    "prevalence": 0.25471698113207547,
+    "confusion_matrix": [
+      [
+        78,
+        1
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 54,
+        "mean_probability": 0.1470233446331872,
+        "observed_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 46,
+        "mean_probability": 0.28750031509212104,
+        "observed_rate": 0.1956521739130435
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 6,
+        "mean_probability": 0.4497699269369491,
+        "observed_rate": 0.0
+      }
+    ],
+    "n": 106
+  },
+  {
+    "target": "return_above_1_percent",
+    "feature_set": "E_no_regime",
+    "model": "hist_gradient",
+    "pair": "ETH/USDT",
+    "roc_auc": 0.4210526315789474,
+    "pr_auc_ap": 0.25342556719158926,
+    "balanced_accuracy": 0.5217391304347826,
+    "precision": 1.0,
+    "recall": 0.043478260869565216,
+    "f1": 0.08333333333333333,
+    "brier": 0.19664674390532674,
+    "ece_5_bins": 0.1472333720908908,
+    "mean_probability": 0.22788987782759318,
+    "prevalence": 0.23232323232323232,
+    "confusion_matrix": [
+      [
+        76,
+        0
+      ],
+      [
+        22,
+        1
+      ]
+    ],
+    "calibration": [
+      {
+        "lower": 0.0,
+        "upper": 0.2,
+        "n": 51,
+        "mean_probability": 0.146911706548368,
+        "observed_rate": 0.29411764705882354
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 40,
+        "mean_probability": 0.2871998904491928,
+        "observed_rate": 0.125
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6000000000000001,
+        "n": 8,
+        "mean_probability": 0.4475756566246556,
+        "observed_rate": 0.375
+      }
+    ],
+    "n": 99
+  }
+]

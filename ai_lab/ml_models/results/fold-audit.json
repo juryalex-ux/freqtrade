@@ -1,0 +1,26 @@
+[
+  {
+    "fold": 1,
+    "train": 50,
+    "test": 59,
+    "purged": 1,
+    "last_training_outcome": "2023-03-31 04:00:00+00:00",
+    "first_test_decision": "2023-04-01 04:00:00+00:00"
+  },
+  {
+    "fold": 2,
+    "train": 109,
+    "test": 63,
+    "purged": 1,
+    "last_training_outcome": "2023-06-30 17:00:00+00:00",
+    "first_test_decision": "2023-07-02 01:00:00+00:00"
+  },
+  {
+    "fold": 3,
+    "train": 172,
+    "test": 44,
+    "purged": 1,
+    "last_training_outcome": "2023-09-30 11:00:00+00:00",
+    "first_test_decision": "2023-10-04 22:00:00+00:00"
+  }
+]

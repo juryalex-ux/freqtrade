@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "ai_lab\\ml_dataset\\data\\development_dataset.parquet": "31af156e9915fa027c66a1eb922af26a5a6abdaf2c07a558d86aaf5a90b2f09c",
+    "ai_lab\\ml_dataset\\data\\validation_dataset.parquet": "ecb43aa5729936594cedecc730621ee881158c62ae3b90cca0f423eed3efd4d0",
+    "ai_lab\\evaluation\\results\\development\\metrics.json": "afb80d3480e186e2deb11d38f68c5af8b0d32fc0865fa249d08e6db8ba7f4ece",
+    "ai_lab\\evaluation\\results\\validation\\metrics.json": "31a5c3e79997e256d6015753e12724d84130b9993b09110808939841347a0d70"
+  },
+  "baseline_hash_unchanged": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+  "protocol_and_script_match_freeze": true,
+  "consumed_test_accessed": false,
+  "shadow_accessed": false,
+  "sklearn_version": "1.9.0",
+  "branch": "ai-lab-development"
+}
