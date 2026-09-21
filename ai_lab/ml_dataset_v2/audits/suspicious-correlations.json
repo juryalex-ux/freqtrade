@@ -1,0 +1,5 @@
+{
+  "threshold": 0.95,
+  "flags": [],
+  "note": "Descriptive screen, not proof against leakage. Multiple dependent comparisons; no feature selection performed."
+}

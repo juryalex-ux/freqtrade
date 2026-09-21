@@ -1,0 +1,38 @@
+{
+  "causality": {
+    "BTC/USDT": {
+      "prefix_checks": 66,
+      "future_mutation": "PASS",
+      "warmup_not_backfilled": "PASS"
+    },
+    "ETH/USDT": {
+      "prefix_checks": 66,
+      "future_mutation": "PASS",
+      "warmup_not_backfilled": "PASS"
+    }
+  },
+  "datasets": {
+    "A_portfolio": {
+      "rows": 1271,
+      "overlapping_label_rows": 794,
+      "max_concurrent_label_intervals": 6,
+      "horizon_censored": 2,
+      "boundary_force_exits": 1,
+      "duplicate_rows": 0,
+      "feature_nan": 0
+    },
+    "B_opportunities": {
+      "rows": 1271,
+      "overlapping_label_rows": 794,
+      "max_concurrent_label_intervals": 6,
+      "horizon_censored": 2,
+      "boundary_force_exits": 1,
+      "duplicate_rows": 0,
+      "feature_nan": 0
+    }
+  },
+  "shared_outcomes_match": true,
+  "feature_count": 44,
+  "numeric_features": 42,
+  "no_2025_data": true
+}

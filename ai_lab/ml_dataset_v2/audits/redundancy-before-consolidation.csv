@@ -1,0 +1,15 @@
+dataset,year,a,b,r
+A_portfolio,ALL,distance_high_168,rolling_drawdown_168,0.9972216617828846
+A_portfolio,2019,distance_high_168,rolling_drawdown_168,0.9948478156421547
+A_portfolio,2020,distance_high_168,rolling_drawdown_168,0.9981340089490045
+A_portfolio,2021,distance_high_168,rolling_drawdown_168,0.9976984474473518
+A_portfolio,2022,distance_high_168,rolling_drawdown_168,0.9983534202867294
+A_portfolio,2023,distance_high_168,rolling_drawdown_168,0.9878695879476449
+A_portfolio,2024,distance_high_168,rolling_drawdown_168,0.998060435931433
+B_opportunities,ALL,distance_high_168,rolling_drawdown_168,0.9972216617828846
+B_opportunities,2019,distance_high_168,rolling_drawdown_168,0.9948478156421547
+B_opportunities,2020,distance_high_168,rolling_drawdown_168,0.9981340089490045
+B_opportunities,2021,distance_high_168,rolling_drawdown_168,0.9976984474473518
+B_opportunities,2022,distance_high_168,rolling_drawdown_168,0.9983534202867294
+B_opportunities,2023,distance_high_168,rolling_drawdown_168,0.9878695879476449
+B_opportunities,2024,distance_high_168,rolling_drawdown_168,0.998060435931433
