@@ -1,0 +1,69 @@
+[
+  {
+    "strategy": "V2TrendPullback",
+    "classification": "C",
+    "checks": {
+      "aggregate_pf_gt_1_15": false,
+      "positive_expectancy": true,
+      "yearly_consistency": false,
+      "year_concentration_le_60pct": false,
+      "both_pairs_not_materially_negative": true,
+      "nearby_values_stable": false,
+      "drawdown_within_limit": true,
+      "sufficient_trades": true,
+      "not_top5_dominated": true
+    },
+    "failed": [
+      "aggregate_pf_gt_1_15",
+      "yearly_consistency",
+      "year_concentration_le_60pct",
+      "nearby_values_stable"
+    ]
+  },
+  {
+    "strategy": "V2CompressionBreakout",
+    "classification": "C",
+    "checks": {
+      "aggregate_pf_gt_1_15": false,
+      "positive_expectancy": true,
+      "yearly_consistency": false,
+      "year_concentration_le_60pct": false,
+      "both_pairs_not_materially_negative": true,
+      "nearby_values_stable": true,
+      "drawdown_within_limit": true,
+      "sufficient_trades": false,
+      "not_top5_dominated": false
+    },
+    "failed": [
+      "aggregate_pf_gt_1_15",
+      "yearly_consistency",
+      "year_concentration_le_60pct",
+      "sufficient_trades",
+      "not_top5_dominated"
+    ]
+  },
+  {
+    "strategy": "V2RegimeAdaptive",
+    "classification": "C",
+    "checks": {
+      "aggregate_pf_gt_1_15": false,
+      "positive_expectancy": false,
+      "yearly_consistency": false,
+      "year_concentration_le_60pct": false,
+      "both_pairs_not_materially_negative": false,
+      "nearby_values_stable": false,
+      "drawdown_within_limit": true,
+      "sufficient_trades": false,
+      "not_top5_dominated": true
+    },
+    "failed": [
+      "aggregate_pf_gt_1_15",
+      "positive_expectancy",
+      "yearly_consistency",
+      "year_concentration_le_60pct",
+      "both_pairs_not_materially_negative",
+      "nearby_values_stable",
+      "sufficient_trades"
+    ]
+  }
+]

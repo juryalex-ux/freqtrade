@@ -1,0 +1,10 @@
+architecture,variant,parameter,value,trades,net_usdt,profit_factor,profitable_years,max_annual_wallet_drawdown_pct
+V2TrendPullback,V2TrendPullbackLo,trend_slope_min,0.002,230,29.1134844,1.0874319765629008,2,3.2338047192070896
+V2TrendPullback,V2TrendPullback,trend_slope_min,0.003,228,32.67953417999999,1.0992037450114147,2,3.2338047192070896
+V2TrendPullback,V2TrendPullbackHi,trend_slope_min,0.004,221,29.61002054999999,1.0915558633275313,1,3.2136580555234886
+V2CompressionBreakout,V2CompressionBreakoutLo,compression_ratio_max,0.75,69,6.625977600000005,1.094383306224552,3,1.8259926052642304
+V2CompressionBreakout,V2CompressionBreakout,compression_ratio_max,0.8,77,0.6897907699999968,1.0087084802068536,2,1.8259926052642304
+V2CompressionBreakout,V2CompressionBreakoutHi,compression_ratio_max,0.85,86,1.4049948599999988,1.0159882751261216,2,1.8289002810715038
+V2RegimeAdaptive,V2RegimeAdaptiveLo,range_stretch_atr,1.2,84,-10.18247747,0.8457235795148134,1,0.9632307879999984
+V2RegimeAdaptive,V2RegimeAdaptive,range_stretch_atr,1.35,84,-10.18247747,0.8457235795148134,1,0.9632307879999984
+V2RegimeAdaptive,V2RegimeAdaptiveHi,range_stretch_atr,1.5,84,-10.18247747,0.8457235795148134,1,0.9632307879999984

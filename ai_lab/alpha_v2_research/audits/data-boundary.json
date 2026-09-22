@@ -1,0 +1,18 @@
+[
+  {
+    "file": "BTC_USDT-1h.feather",
+    "rows": 35808,
+    "start": "2018-12-01 00:00:00+00:00",
+    "end": "2022-12-31 23:00:00+00:00",
+    "duplicates": 0,
+    "missing": 0
+  },
+  {
+    "file": "ETH_USDT-1h.feather",
+    "rows": 35808,
+    "start": "2018-12-01 00:00:00+00:00",
+    "end": "2022-12-31 23:00:00+00:00",
+    "duplicates": 0,
+    "missing": 0
+  }
+]

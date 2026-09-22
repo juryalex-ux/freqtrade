@@ -1,0 +1,139 @@
+{
+  "freeze_utc": "2026-09-22T02:11:07.331665+00:00",
+  "git_commit": "fd8a9b1455c6029dad9db828c987d8e47e658a11",
+  "branch": "ai-lab-development",
+  "research_window": {
+    "warmup": [
+      "2018-12-01",
+      "2019-01-01"
+    ],
+    "scored": [
+      "2019-01-01",
+      "2023-01-01"
+    ]
+  },
+  "forbidden_data": "No timestamp at or after 2023-01-01 may be loaded, evaluated, or reported.",
+  "execution": {
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT"
+    ],
+    "timeframe": "1h",
+    "spot": true,
+    "signal": "completed candle",
+    "fill": "next candle by Freqtrade",
+    "fee_each_side": 0.001,
+    "wallet_usdt": 1000,
+    "stake_usdt": 100,
+    "max_open_trades": 2
+  },
+  "architectures": {
+    "V2TrendPullback": {
+      "state": "EMA50>EMA200, EMA50 12h slope>=0.3%, efficiency48>=0.25, NATR<=1.5x prior72h mean",
+      "setup": "Within prior 4 candles low touched EMA20 zone, stayed >=98% EMA50, and close retained >=99.5% EMA50",
+      "trigger": "Bullish candle close above prior3h high, positive 3h return, close location>=60%",
+      "risk": "Entry-to-prior6h-low distance 0.35-2.5 ATR; structural damage exit; emergency stop -6%",
+      "exit": "Close below EMA50 or prior10h low; ROI 6%",
+      "rationale": "Require established directional state, a controlled retracement, and observable resumption rather than buying the first breakout.",
+      "neighborhood": {
+        "trend_slope_min": [
+          0.002,
+          0.003,
+          0.004
+        ]
+      }
+    },
+    "V2CompressionBreakout": {
+      "state": "EMA50 12h slope>=-0.3% and NATR<=1.8x prior72h mean",
+      "setup": "At least 4 of previous6 candles compressed; BB20 width/(4 ATR14)<=0.80 and NATR below prior72h mean",
+      "trigger": "Close above prior12h compression high+0.05ATR, true range>=1.2x prior ATR, relative volume>=1.15, close location>=75%",
+      "risk": "Entry-to-prior12h-low distance 0.5-2.75 ATR; emergency stop -6%",
+      "exit": "Close below EMA20 or prior12h low; ROI 6%",
+      "rationale": "Demand persistent contraction before participation-backed range expansion and reject structurally wide entries.",
+      "neighborhood": {
+        "compression_ratio_max": [
+          0.75,
+          0.8,
+          0.85
+        ]
+      }
+    },
+    "V2RegimeAdaptive": {
+      "state": "Exclusive trend state (EMA50>EMA200, slope>=0.25%, efficiency48>=0.25) else range state (abs slope<0.4%, efficiency24<0.30, NATR<1.2x prior72h mean)",
+      "setup": "Trend: prior4h EMA20 pullback above 98% EMA50. Range: prior close below EMA20-1.35ATR with prior RSI<32",
+      "trigger": "Trend: bullish prior3h-high reclaim. Range: bullish reversal above prior close. Trend owns overlaps, so one candle cannot use both setups",
+      "risk": "Trend distance to prior6h low 0.35-2.5 ATR; range candle recovery <=1.5ATR; emergency stop -6%",
+      "exit": "Close below prior10h low or completed mean reversion (close>=EMA20 and RSI>=50); ROI 6%",
+      "rationale": "Assign exactly one setup to each of two economic states instead of applying one signal across incompatible conditions.",
+      "neighborhood": {
+        "range_stretch_atr": [
+          1.2,
+          1.35,
+          1.5
+        ]
+      }
+    }
+  },
+  "central": [
+    "V2TrendPullback",
+    "V2CompressionBreakout",
+    "V2RegimeAdaptive"
+  ],
+  "variants": [
+    "V2TrendPullbackLo",
+    "V2TrendPullbackHi",
+    "V2CompressionBreakoutLo",
+    "V2CompressionBreakoutHi",
+    "V2RegimeAdaptiveLo",
+    "V2RegimeAdaptiveHi"
+  ],
+  "references": [
+    "LabBaseline",
+    "AlphaBreakout"
+  ],
+  "fee_sensitivity": [
+    0.001,
+    0.0015,
+    0.002
+  ],
+  "continuation": {
+    "aggregate_profit_factor_min_exclusive": 1.15,
+    "positive_expectancy": true,
+    "profitable_years": "at least 3/4, or one near-flat and three clearly positive",
+    "max_single_year_profit_share": 0.6,
+    "both_pairs_not_materially_negative": true,
+    "nearby_values_stable": true,
+    "drawdown_not_materially_worse_than_alpha_breakout": true,
+    "sufficient_trades": true,
+    "not_top_trade_dominated": true,
+    "operational_definitions": {
+      "material_pair_loss_usdt": -10.0,
+      "minimum_total_trades": 100,
+      "variant_stability": "both nearby variants aggregate net>0, PF>1, and >=2 profitable years",
+      "drawdown_limit": "candidate max annual wallet drawdown <=1.25x AlphaBreakout",
+      "top5_gross_profit_share_max": 0.35,
+      "near_flat_year_usdt": 2.0
+    }
+  },
+  "parameter_policy": "One predeclared three-value neighborhood per architecture; no search, ranking, or post-result change.",
+  "code_hashes": {
+    "common.py": "d262761f077fd6a4cb6d97df4f67e0b4166a3d139d664f178d99696f16cd7c4a",
+    "freeze.py": "f241bdaae9188dbc93b303671ab4910ce91c8e02fd4bc20e5a6e1a20e2097873",
+    "run.py": "38560ff2d26b93d74ff9cbc8a33cdba90f5c5022b603781437f17a3740cef032",
+    "report.py": "ec152be064ce024489cd015f6784b0bd2132e9d05a821f8f7ee734e3a65d99a3",
+    "finalize.py": "52823dbd142ad3484f2233df524e28b7d89b62d453d3b75cbc4855cd714a369c",
+    "test_causality.py": "6f391bd89cfed21a48ad87a867e6c3ec00f36ce51496d17197d875f2b55deba3",
+    "strategies/AlphaV2.py": "c7b35c2c13d485877bc54f05e155c2eec447e85b91a384b54baea6d2110364de",
+    "strategies/LabBaseline.py": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+    "strategies/AlphaCandidates.py": "cfc775c8834072741daff41dab16ca0809362d674a0e9c21e8d643ff10d29493",
+    "backtest.json": "e814e683755f2aa8c01cdf82a62b51313ac3a89b234e17c9a015a357dd8a72d7"
+  },
+  "reference_hashes": {
+    "ai_lab/strategies/LabBaseline.py": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+    "ai_lab/alpha_research/strategies/AlphaCandidates.py": "cfc775c8834072741daff41dab16ca0809362d674a0e9c21e8d643ff10d29493"
+  },
+  "data_hashes": {
+    "BTC_USDT-1h.feather": "9a567b97edc2adb38336bf42d3502494c2ae80946f5105d1f1d431773bbdcaa8",
+    "ETH_USDT-1h.feather": "6eac62fdedb5ad52d9dd3925d2e4fef9a5118aa2e500ef71eba3be14924d1027"
+  }
+}
