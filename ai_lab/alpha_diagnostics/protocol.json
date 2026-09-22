@@ -1,0 +1,107 @@
+{
+  "freeze_utc": "2026-09-22T02:30:39.220479+00:00",
+  "git_commit": "ad3fadb3b4c863946149c609a0dad6c40f52e8bf",
+  "branch": "ai-lab-development",
+  "purpose": "Diagnosis only; no strategy, parameter, entry, exit, filter, or candidate creation.",
+  "strategies": [
+    "LabBaseline",
+    "AlphaBreakout",
+    "V2TrendPullback",
+    "V2CompressionBreakout",
+    "V2RegimeAdaptive"
+  ],
+  "period": [
+    "2019-01-01",
+    "2023-01-01"
+  ],
+  "warmup": [
+    "2018-12-01",
+    "2019-01-01"
+  ],
+  "evidence_status": "Previously used development evidence; no untouched holdout claim.",
+  "entry_alignment": "Trade open_date is next-candle execution. Entry context/regime uses the completed candle ending at open_date.",
+  "forward_returns": {
+    "hours": [
+      1,
+      3,
+      6,
+      12,
+      24,
+      48
+    ],
+    "formula": "close at end of horizon / fill open_rate - 1"
+  },
+  "excursions": "MFE=max high/open_rate-1 and MAE=min low/open_rate-1 over entry candle through candle before/at exit; time is first timestamp of the extreme.",
+  "first_passage": {
+    "window_hours": 48,
+    "barriers_pct": [
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "rule": "First candle high>=+barrier versus low<=-barrier; same-candle hits are TIE and never called favorable."
+  },
+  "exit_diagnostics": {
+    "giveback": "MFE minus gross close/open return",
+    "profitable_intratrade_closed_negative": "MFE>0.2% round-trip fee and realized net<0",
+    "stop_recovery": "within 24h after exit, high reaches entry break-even at 0.1% fee/side",
+    "structural_continuation": "within 24h after structural exit, high exceeds exit rate by >=1%"
+  },
+  "session_utc": {
+    "Asia": [
+      0,
+      8
+    ],
+    "Europe": [
+      8,
+      16
+    ],
+    "Americas": [
+      16,
+      24
+    ]
+  },
+  "expansion_context": "Signal-candle NATR14 above its prior causal 72h median; otherwise contraction.",
+  "regimes": {
+    "base": "Exact Phase 2B detector thresholds and priority",
+    "TREND": "TREND_UP or TREND_DOWN",
+    "TRANSITIONAL": "current base label differs from base label three completed candles earlier",
+    "others": [
+      "RANGE",
+      "HIGH_VOLATILITY",
+      "LOW_VOLATILITY"
+    ]
+  },
+  "volatility_percentile": "Signal-candle NATR14 empirical percentile within trailing 720 completed candles; buckets [0,20),[20,40),[40,60),[60,80),[80,100].",
+  "fee_sensitivity": {
+    "per_side": [
+      0.001,
+      0.0015,
+      0.002,
+      0.0025
+    ],
+    "formula": "stake_amount * (close_rate*(1-fee)/(open_rate*(1+fee))-1); identical trades only"
+  },
+  "duration_buckets_hours": [
+    "<6",
+    "6-12",
+    "12-24",
+    "24-48",
+    ">48"
+  ],
+  "trim": "Mean after removing floor(5% of trades) from each return tail per strategy.",
+  "source_evidence_sha256": {
+    "ai_lab/alpha_v2_research/results/main_fee_0.10pct/2019/metrics.json": "cf2e3dde6dfca63a32c45ee599de16fcf2f9c1a3b54b37a323faf09edcb02f5b",
+    "ai_lab/alpha_v2_research/results/main_fee_0.10pct/2020/metrics.json": "652a004a9e5ce2beaa72aa2049479db0996d45783fd47ded539c9a6d59a363b5",
+    "ai_lab/alpha_v2_research/results/main_fee_0.10pct/2021/metrics.json": "0cfd33bff1832a2fa1083c80d51b6cf118a585bff613665041f2b229cbb44f40",
+    "ai_lab/alpha_v2_research/results/main_fee_0.10pct/2022/metrics.json": "a8598531426759f9a4e789f1792a81daa3134c1be7e6883de764576850d51eae",
+    "ai_lab/alpha_v2_research/data/BTC_USDT-1h.feather": "9a567b97edc2adb38336bf42d3502494c2ae80946f5105d1f1d431773bbdcaa8",
+    "ai_lab/alpha_v2_research/data/ETH_USDT-1h.feather": "6eac62fdedb5ad52d9dd3925d2e4fef9a5118aa2e500ef71eba3be14924d1027"
+  },
+  "reference_source_sha256": {
+    "ai_lab/strategies/LabBaseline.py": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+    "ai_lab/alpha_research/strategies/AlphaCandidates.py": "cfc775c8834072741daff41dab16ca0809362d674a0e9c21e8d643ff10d29493",
+    "ai_lab/alpha_v2_research/strategies/AlphaV2.py": "c7b35c2c13d485877bc54f05e155c2eec447e85b91a384b54baea6d2110364de"
+  }
+}

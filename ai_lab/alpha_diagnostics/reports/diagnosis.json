@@ -1,0 +1,77 @@
+{
+  "overall": {
+    "classification": "Mixed failure led by regime/nonstationarity and exit capture",
+    "ranked_causes": [
+      "Regime and volatility dependence: no architecture is broadly stable across contexts.",
+      "Exit/holding mismatch: favorable excursions are commonly surrendered before close.",
+      "Entry timing and adverse selection: newer V2 entries have weak early forward returns and frequent immediate adverse movement.",
+      "Fee fragility: marginal V2 economics disappear between 0.15% and 0.20% per side.",
+      "Structural nonstationarity: yearly expectancy and entry quality vary materially, especially for AlphaBreakout and V2TrendPullback.",
+      "Duration dependence: profits frequently sit in longer-duration minorities while short trades lose.",
+      "Asset dependence: most pronounced in V2RegimeAdaptive; weaker in Trend Pullback and AlphaBreakout.",
+      "Signal rarity/top-trade dependence: decisive for Compression Breakout and limits Adaptive inference."
+    ]
+  },
+  "strategies": [
+    {
+      "strategy": "LabBaseline",
+      "classification": "A",
+      "label": "Entry logic fundamentally weak",
+      "primary": [
+        "poor entry quality",
+        "exit giveback",
+        "high-volatility dependence",
+        "duration dependence"
+      ],
+      "evidence": "PF 0.91; symmetric first-passage is near 50/50; 57.8% of trades were profitable intratrade but closed negative; only >48h trades were strongly profitable."
+    },
+    {
+      "strategy": "AlphaBreakout",
+      "classification": "E",
+      "label": "Structurally unstable / nonstationary",
+      "primary": [
+        "structural nonstationarity",
+        "regime dependence",
+        "volatility dependence"
+      ],
+      "evidence": "2019 lost while 2020-2021 dominated development gains; high-volatility entries lost and transitional/trend entries dominated. Prior Phase 4B retrospective evidence already established later decay."
+    },
+    {
+      "strategy": "V2TrendPullback",
+      "classification": "B",
+      "label": "Entry useful but exits/risk likely dominate failure",
+      "primary": [
+        "exit giveback",
+        "regime dependence",
+        "duration dependence",
+        "fee fragility",
+        "entry timing"
+      ],
+      "evidence": "Mean MFE 2.60% versus 0.14% realized; 59.6% profitable intratrade closed negative; 80.5% of structural exits were followed by a +1% continuation; short-duration trades lost heavily."
+    },
+    {
+      "strategy": "V2CompressionBreakout",
+      "classification": "D",
+      "label": "Too sparse to conclude",
+      "primary": [
+        "signal rarity",
+        "duration dependence",
+        "fee fragility",
+        "exit giveback"
+      ],
+      "evidence": "Only 77 trades; PF 1.01; 66.2% profitable intratrade closed negative; results turn negative at 0.15% fees and depend on a small set of longer trades."
+    },
+    {
+      "strategy": "V2RegimeAdaptive",
+      "classification": "A",
+      "label": "Entry logic fundamentally weak",
+      "primary": [
+        "adverse selection",
+        "asset dependence",
+        "regime dependence",
+        "signal rarity"
+      ],
+      "evidence": "PF 0.85; 65.5% closed the first hour below entry; BTC PF 0.52 while ETH PF 1.22; transitional entries PF 0.34; only 84 trades."
+    }
+  ]
+}

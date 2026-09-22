@@ -1,0 +1,21 @@
+{
+  "trades": 1723,
+  "strategies": [
+    "LabBaseline",
+    "AlphaBreakout",
+    "V2TrendPullback",
+    "V2CompressionBreakout",
+    "V2RegimeAdaptive"
+  ],
+  "minimum_timestamp": "2018-12-01 00:00:00+00:00",
+  "maximum_timestamp": "2022-12-31 23:00:00+00:00",
+  "duplicates": {
+    "BTC/USDT": 0,
+    "ETH/USDT": 0
+  },
+  "source_hashes_verified": true,
+  "parameters_changed": false,
+  "strategy_code_executed": false,
+  "entry_logic_rerun": false,
+  "later_period_loaded": false
+}
