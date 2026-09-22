@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-22T01:01:11.430400+00:00",
+  "branch": "ai-lab-development",
+  "git_status": "?? ai_lab/alpha_research/\n",
+  "baseline_original_and_copy_sha256": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+  "tracked_files_modified": [],
+  "frozen_strategy_code_unchanged": true,
+  "protocol_unchanged_since_before_data": true,
+  "annual_runs": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_strategy_combinations": 64,
+  "year_boundary_note": "Seven forced exits across2020/2021 strategy runs occur exactly on following Jan1 midnight. Original timestamps and P/L retained; daily summaries assign them to prior final day.2022 input ends Dec31 23:00. No parameter adaptation occurs across touching endpoints.",
+  "candidate_families": 5,
+  "settings_per_family": 3,
+  "parameters_selected_or_updated": 0,
+  "consumed_period_data_or_result_files_read": false,
+  "new_source_data_end_exclusive": "2023-01-01T00:00:00Z",
+  "live_trading_enabled": false,
+  "ml_used": false,
+  "commit_push_merge_performed": false
+}

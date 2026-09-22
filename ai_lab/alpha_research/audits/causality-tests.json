@@ -1,0 +1,30 @@
+{
+  "command": ".venv/Scripts/python.exe -B ai_lab/alpha_research/test_causality.py",
+  "result": "5 tests passed before backtesting",
+  "synthetic_prefix_comparisons": 45,
+  "synthetic_future_mutation_comparisons": 15,
+  "real_prefix_comparisons": 150,
+  "tested_candidates_and_variants": [
+    "AlphaTrend",
+    "AlphaTrendLo",
+    "AlphaTrendHi",
+    "AlphaBreakout",
+    "AlphaBreakoutLo",
+    "AlphaBreakoutHi",
+    "AlphaReversion",
+    "AlphaReversionLo",
+    "AlphaReversionHi",
+    "AlphaSqueeze",
+    "AlphaSqueezeLo",
+    "AlphaSqueezeHi",
+    "AlphaMomentum",
+    "AlphaMomentumLo",
+    "AlphaMomentumHi"
+  ],
+  "other_checks": [
+    "prior-only breakout levels",
+    "warmup not future-filled",
+    "exactly one perturbed parameter per neighbor"
+  ],
+  "initial_pre_freeze_fix": "Renamed access to squeeze column using brackets to avoid collision with pandas DataFrame.squeeze method; no performance was viewed."
+}

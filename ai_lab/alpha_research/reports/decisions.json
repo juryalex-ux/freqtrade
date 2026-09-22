@@ -1,0 +1,116 @@
+[
+  {
+    "strategy": "AlphaTrend",
+    "continue": false,
+    "checks": {
+      "positive_expectancy_multiple_years": false,
+      "pf_above_one_multiple_years": false,
+      "aggregate_positive": true,
+      "sufficient_total_trades": true,
+      "sufficient_each_year": true,
+      "wallet_drawdown_acceptable": true,
+      "not_one_positive_year_dominated": false,
+      "both_pairs_positive": false,
+      "internal_2022_positive": true,
+      "both_neighbors_positive": false,
+      "neighbors_multiple_positive_years": false
+    },
+    "failed": [
+      "positive_expectancy_multiple_years",
+      "pf_above_one_multiple_years",
+      "not_one_positive_year_dominated",
+      "both_pairs_positive",
+      "both_neighbors_positive",
+      "neighbors_multiple_positive_years"
+    ]
+  },
+  {
+    "strategy": "AlphaBreakout",
+    "continue": true,
+    "checks": {
+      "positive_expectancy_multiple_years": true,
+      "pf_above_one_multiple_years": true,
+      "aggregate_positive": true,
+      "sufficient_total_trades": true,
+      "sufficient_each_year": true,
+      "wallet_drawdown_acceptable": true,
+      "not_one_positive_year_dominated": true,
+      "both_pairs_positive": true,
+      "internal_2022_positive": true,
+      "both_neighbors_positive": true,
+      "neighbors_multiple_positive_years": true
+    },
+    "failed": []
+  },
+  {
+    "strategy": "AlphaReversion",
+    "continue": false,
+    "checks": {
+      "positive_expectancy_multiple_years": false,
+      "pf_above_one_multiple_years": false,
+      "aggregate_positive": true,
+      "sufficient_total_trades": false,
+      "sufficient_each_year": false,
+      "wallet_drawdown_acceptable": true,
+      "not_one_positive_year_dominated": false,
+      "both_pairs_positive": true,
+      "internal_2022_positive": false,
+      "both_neighbors_positive": true,
+      "neighbors_multiple_positive_years": true
+    },
+    "failed": [
+      "positive_expectancy_multiple_years",
+      "pf_above_one_multiple_years",
+      "sufficient_total_trades",
+      "sufficient_each_year",
+      "not_one_positive_year_dominated",
+      "internal_2022_positive"
+    ]
+  },
+  {
+    "strategy": "AlphaSqueeze",
+    "continue": false,
+    "checks": {
+      "positive_expectancy_multiple_years": true,
+      "pf_above_one_multiple_years": true,
+      "aggregate_positive": true,
+      "sufficient_total_trades": true,
+      "sufficient_each_year": true,
+      "wallet_drawdown_acceptable": true,
+      "not_one_positive_year_dominated": true,
+      "both_pairs_positive": true,
+      "internal_2022_positive": false,
+      "both_neighbors_positive": true,
+      "neighbors_multiple_positive_years": true
+    },
+    "failed": [
+      "internal_2022_positive"
+    ]
+  },
+  {
+    "strategy": "AlphaMomentum",
+    "continue": false,
+    "checks": {
+      "positive_expectancy_multiple_years": false,
+      "pf_above_one_multiple_years": false,
+      "aggregate_positive": false,
+      "sufficient_total_trades": true,
+      "sufficient_each_year": true,
+      "wallet_drawdown_acceptable": true,
+      "not_one_positive_year_dominated": false,
+      "both_pairs_positive": false,
+      "internal_2022_positive": false,
+      "both_neighbors_positive": false,
+      "neighbors_multiple_positive_years": true
+    },
+    "failed": [
+      "positive_expectancy_multiple_years",
+      "pf_above_one_multiple_years",
+      "aggregate_positive",
+      "not_one_positive_year_dominated",
+      "both_pairs_positive",
+      "internal_2022_positive",
+      "both_neighbors_positive"
+    ]
+  }
+]
