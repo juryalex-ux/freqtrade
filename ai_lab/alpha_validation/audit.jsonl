@@ -1,0 +1,21 @@
+{"utc": "2026-09-22T01:17:01.534600+00:00", "event": "alpha_breakout_frozen", "manifest_sha256": "c5d62de8edbccaf03053505d45eeef8a3c532793796a27bb83633dcd1de2e846", "later_results_accessed": false}
+{"utc": "2026-09-22T01:18:37.906949+00:00", "event": "data_ready", "pair": "BTC/USDT", "preD_observed": 29207, "D_sealed_candles": 3672, "preD_missing": 1}
+{"utc": "2026-09-22T01:18:48.292851+00:00", "event": "data_ready", "pair": "ETH/USDT", "preD_observed": 29207, "D_sealed_candles": 3672, "preD_missing": 1}
+{"utc": "2026-09-22T01:19:34.128423+00:00", "event": "retrospective_backtest_started", "label": "A_2023", "period": ["20230101", "20240101"], "strategies": ["AlphaBreakout", "LabBaseline"]}
+{"utc": "2026-09-22T01:19:53.683841+00:00", "event": "retrospective_backtest_completed", "label": "A_2023", "archive_sha256": "20ed3f8f058fe695b3d79562438024f4c8f9b04b365f21a93fec6f875d0cb37f"}
+{"utc": "2026-09-22T01:19:53.698754+00:00", "event": "retrospective_backtest_started", "label": "B_2024", "period": ["20240101", "20250101"], "strategies": ["AlphaBreakout", "LabBaseline"]}
+{"utc": "2026-09-22T01:20:14.868085+00:00", "event": "retrospective_backtest_completed", "label": "B_2024", "archive_sha256": "95fccae921b6333d62e8da2bb1e1153c0c827251738553b3d58c5686a5b4b9b2"}
+{"utc": "2026-09-22T01:20:14.868085+00:00", "event": "retrospective_backtest_started", "label": "C_2025_to_2026Q1", "period": ["20250101", "20260401"], "strategies": ["AlphaBreakout", "LabBaseline"]}
+{"utc": "2026-09-22T01:20:34.796718+00:00", "event": "retrospective_backtest_recovered_completed", "label": "A_2023", "archive_sha256": "20ed3f8f058fe695b3d79562438024f4c8f9b04b365f21a93fec6f875d0cb37f", "rerun": false}
+{"utc": "2026-09-22T01:20:34.802715+00:00", "event": "retrospective_backtest_recovered_completed", "label": "B_2024", "archive_sha256": "95fccae921b6333d62e8da2bb1e1153c0c827251738553b3d58c5686a5b4b9b2", "rerun": false}
+{"utc": "2026-09-22T01:20:34.805720+00:00", "event": "retrospective_backtest_started", "label": "C_2025_to_2026Q1", "period": ["20250101", "20260401"], "strategies": ["AlphaBreakout", "LabBaseline"]}
+{"utc": "2026-09-22T01:20:38.288178+00:00", "event": "retrospective_backtest_completed", "label": "C_2025_to_2026Q1", "archive_sha256": "7dafcf05a40f5935d0502e605887d84e95175c3d2d45ce1e266a48f2ba2f6d6a"}
+{"utc": "2026-09-22T01:20:38.293182+00:00", "event": "retrospective_backtest_started", "label": "D_2026_shadow", "period": ["20260401", "20260901"], "strategies": ["AlphaBreakout", "LabBaseline"]}
+{"utc": "2026-09-22T01:20:54.910435+00:00", "event": "retrospective_backtest_completed", "label": "D_2026_shadow", "archive_sha256": "3f2dd8587e46aae560268f50ee42aff2b650f168f9a84145121ef82901e16f61"}
+{"utc": "2026-09-22T01:20:57.174477+00:00", "event": "retrospective_backtest_completed", "label": "C_2025_to_2026Q1", "archive_sha256": "7dafcf05a40f5935d0502e605887d84e95175c3d2d45ce1e266a48f2ba2f6d6a"}
+{"utc": "2026-09-22T01:20:57.174477+00:00", "event": "retrospective_backtest_recovered_completed", "label": "D_2026_shadow", "archive_sha256": "3f2dd8587e46aae560268f50ee42aff2b650f168f9a84145121ef82901e16f61", "rerun": false}
+{"utc": "2026-09-22T01:23:01.502764+00:00", "event": "report_complete", "category": "C", "parameters_changed": 0}
+{"utc": "2026-09-22T01:23:02.510215+00:00", "event": "final_integrity_complete", "archives": 4, "all_source_hashes_unchanged": true}
+{"utc": "2026-09-22T01:26:27.493242+00:00", "event": "backtest_archive_audit", "physical_archives": 5, "economic_summaries_identical_for_duplicate_C": true}
+{"utc": "2026-09-22T01:26:29.974024+00:00", "event": "report_complete", "category": "C", "parameters_changed": 0}
+{"utc": "2026-09-22T01:26:30.856398+00:00", "event": "final_integrity_complete", "physical_archives": 5, "all_source_hashes_unchanged": true}

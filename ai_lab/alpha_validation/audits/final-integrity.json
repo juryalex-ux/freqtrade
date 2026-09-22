@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-22T01:26:30.706350+00:00",
+  "branch": "ai-lab-development",
+  "git_status": "?? ai_lab/alpha_validation/\n",
+  "original_alpha_breakout_and_copy_match": true,
+  "LabBaseline_unchanged": true,
+  "frozen_manifest_unchanged": true,
+  "alpha_parameters_changed_after_freeze": false,
+  "strategies_evaluated": [
+    "AlphaBreakout",
+    "LabBaseline"
+  ],
+  "periods_completed": [
+    "A_2023",
+    "B_2024",
+    "C_2025_to_2026Q1",
+    "D_2026_shadow"
+  ],
+  "logical_periods": 4,
+  "physical_backtest_archives": 5,
+  "duplicate_locked_C_execution": true,
+  "ml_used": false,
+  "freqai_used": false,
+  "live_trading_enabled": false,
+  "sealed_data_unchanged": true,
+  "no_data_after_2026_09_01": true,
+  "retrospective_label_required": "retrospective robustness evidence only"
+}

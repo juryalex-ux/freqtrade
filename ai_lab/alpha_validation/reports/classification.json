@@ -1,0 +1,45 @@
+{
+  "category": "C",
+  "reason": "Inadequate cross-period robustness: only one profitable and PF>1 period, with both recent periods negative.",
+  "A_disallowed": "No prospective paper-trading result exists; Phase 4B results are explicitly retrospective only.",
+  "alpha_aggregate": {
+    "strategy": "AlphaBreakout",
+    "periods": 4,
+    "trades": 479,
+    "net_usdt": 24.02007222000003,
+    "sum_period_returns_pct": 2.4020072220000035,
+    "profit_factor": 1.0424735231429625,
+    "expectancy_usdt": 0.05014628855949902,
+    "profitable_periods": 1,
+    "pf_above_one_periods": 1,
+    "worst_period_usdt": -30.692218439999994,
+    "max_wallet_drawdown_pct": 4.690532665886868,
+    "max_pair_concentration_pct": 57.626427103070995
+  },
+  "baseline_aggregate": {
+    "strategy": "LabBaseline",
+    "periods": 4,
+    "trades": 753,
+    "net_usdt": -144.03394648,
+    "sum_period_returns_pct": -14.403394648,
+    "profit_factor": 0.847136788171715,
+    "expectancy_usdt": -0.19128014140770253,
+    "profitable_periods": 1,
+    "pf_above_one_periods": 1,
+    "worst_period_usdt": -96.06132769,
+    "max_wallet_drawdown_pct": 12.046263102953978,
+    "max_pair_concentration_pct": 89.37760454251521
+  },
+  "recent_periods": {
+    "C_2025_to_2026Q1": {
+      "net_usdt": -30.692218439999994,
+      "profit_factor": 0.8448193716558116,
+      "trades": 161
+    },
+    "D_2026_shadow": {
+      "net_usdt": -16.89209278,
+      "profit_factor": 0.7743078242298593,
+      "trades": 60
+    }
+  }
+}

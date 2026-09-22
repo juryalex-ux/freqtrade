@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "pair": "BTC/USDT",
+      "preD_raw_sha256": "5d38d746a9e412c3aad702ab2cac38686aa3948bd5f1bb96b05f75afd9bb9579",
+      "full_data_sha256": "e246b62df80e2adbb69d797e22b9ef356820a84a35754019bab4dc5b6bf37c9c",
+      "sealed_D_file": "shadow\\data\\BTC_USDT-1h.feather",
+      "sealed_D_sha256": "f4f5896625b9465f31e99ba138cc9668ebb631d9e8894bbb684c1ce03b625e67",
+      "preD_start": "2022-12-01 00:00:00+00:00",
+      "preD_end": "2026-03-31 23:00:00+00:00",
+      "preD_missing": 1,
+      "preD_missing_timestamps": [
+        "2023-03-24 13:00:00+00:00"
+      ],
+      "preD_gap_lengths": [
+        1
+      ],
+      "preD_synthetic": 1,
+      "D_missing": 0,
+      "D_duplicates": 0,
+      "post_shadow_data": 0
+    },
+    {
+      "pair": "ETH/USDT",
+      "preD_raw_sha256": "f96eb231faf91de8115d93b9cff4896054979f62a3a2f32f50a1e516088c93ed",
+      "full_data_sha256": "9ea8eb6b18e4f17072941b32f5cec316850420c5aecc5912ec22bce8e617b5da",
+      "sealed_D_file": "shadow\\data\\ETH_USDT-1h.feather",
+      "sealed_D_sha256": "5f258eea8438cd403ff3fb032ab483eeb2fa6f1e06a017922586937635b2d4de",
+      "preD_start": "2022-12-01 00:00:00+00:00",
+      "preD_end": "2026-03-31 23:00:00+00:00",
+      "preD_missing": 1,
+      "preD_missing_timestamps": [
+        "2023-03-24 13:00:00+00:00"
+      ],
+      "preD_gap_lengths": [
+        1
+      ],
+      "preD_synthetic": 1,
+      "D_missing": 0,
+      "D_duplicates": 0,
+      "post_shadow_data": 0
+    }
+  ],
+  "original_seal_sha256": "319b8a97e5c1fb705662e3efec13ab4d7fe42a0af3c43ed3573f3f51819aedd9",
+  "original_seal_unchanged": true
+}

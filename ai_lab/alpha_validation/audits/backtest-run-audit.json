@@ -1,0 +1,159 @@
+{
+  "purpose": "Post-run archive integrity audit; no backtest was executed by this script.",
+  "periods": {
+    "A_2023": {
+      "archive_count": 1,
+      "archives": [
+        {
+          "name": "backtest-result-2026-09-22_01-19-51.zip",
+          "sha256": "20ed3f8f058fe695b3d79562438024f4c8f9b04b365f21a93fec6f875d0cb37f"
+        }
+      ],
+      "all_strategy_payloads_identical": true,
+      "economic_summaries_identical": true,
+      "strategy_summaries": [
+        {
+          "AlphaBreakout": {
+            "total_trades": 131,
+            "wins": 53,
+            "losses": 78,
+            "profit_total_abs": -2.5930606799999936,
+            "profit_total": -0.0025930606799999937,
+            "profit_factor": 0.9844056322813093
+          },
+          "LabBaseline": {
+            "total_trades": 217,
+            "wins": 72,
+            "losses": 145,
+            "profit_total_abs": -5.920169090000002,
+            "profit_total": -0.005920169090000002,
+            "profit_factor": 0.9721749312913395
+          }
+        }
+      ],
+      "canonical_metrics": "metrics.json",
+      "note": "One archived locked execution."
+    },
+    "B_2024": {
+      "archive_count": 1,
+      "archives": [
+        {
+          "name": "backtest-result-2026-09-22_01-20-13.zip",
+          "sha256": "95fccae921b6333d62e8da2bb1e1153c0c827251738553b3d58c5686a5b4b9b2"
+        }
+      ],
+      "all_strategy_payloads_identical": true,
+      "economic_summaries_identical": true,
+      "strategy_summaries": [
+        {
+          "AlphaBreakout": {
+            "total_trades": 127,
+            "wins": 62,
+            "losses": 65,
+            "profit_total_abs": 74.19744412,
+            "profit_total": 0.07419744412,
+            "profit_factor": 1.5859894900095033
+          },
+          "LabBaseline": {
+            "total_trades": 205,
+            "wins": 73,
+            "losses": 132,
+            "profit_total_abs": -43.35263174000001,
+            "profit_total": -0.04335263174000001,
+            "profit_factor": 0.8422202568020988
+          }
+        }
+      ],
+      "canonical_metrics": "metrics.json",
+      "note": "One archived locked execution."
+    },
+    "C_2025_to_2026Q1": {
+      "archive_count": 2,
+      "archives": [
+        {
+          "name": "backtest-result-2026-09-22_01-20-35.zip",
+          "sha256": "7dafcf05a40f5935d0502e605887d84e95175c3d2d45ce1e266a48f2ba2f6d6a"
+        },
+        {
+          "name": "backtest-result-2026-09-22_01-20-55.zip",
+          "sha256": "9a5ac7c5c3482d10a37d04d687b3d5a3ea33a340bea4c140a2c350439d68118d"
+        }
+      ],
+      "all_strategy_payloads_identical": false,
+      "economic_summaries_identical": true,
+      "strategy_summaries": [
+        {
+          "AlphaBreakout": {
+            "total_trades": 161,
+            "wins": 58,
+            "losses": 103,
+            "profit_total_abs": -30.692218439999994,
+            "profit_total": -0.030692218439999995,
+            "profit_factor": 0.8448193716558116
+          },
+          "LabBaseline": {
+            "total_trades": 253,
+            "wins": 81,
+            "losses": 172,
+            "profit_total_abs": -96.06132769,
+            "profit_total": -0.09606132769,
+            "profit_factor": 0.7456184859653959
+          }
+        },
+        {
+          "AlphaBreakout": {
+            "total_trades": 161,
+            "wins": 58,
+            "losses": 103,
+            "profit_total_abs": -30.692218439999994,
+            "profit_total": -0.030692218439999995,
+            "profit_factor": 0.8448193716558116
+          },
+          "LabBaseline": {
+            "total_trades": 253,
+            "wins": 81,
+            "losses": 172,
+            "profit_total_abs": -96.06132769,
+            "profit_total": -0.09606132769,
+            "profit_factor": 0.7456184859653959
+          }
+        }
+      ],
+      "canonical_metrics": "metrics.json",
+      "note": "Multiple locked executions were retained for audit; the full payload metadata differs, but all reported economic summaries are identical."
+    },
+    "D_2026_shadow": {
+      "archive_count": 1,
+      "archives": [
+        {
+          "name": "backtest-result-2026-09-22_01-20-52.zip",
+          "sha256": "3f2dd8587e46aae560268f50ee42aff2b650f168f9a84145121ef82901e16f61"
+        }
+      ],
+      "all_strategy_payloads_identical": true,
+      "economic_summaries_identical": true,
+      "strategy_summaries": [
+        {
+          "AlphaBreakout": {
+            "total_trades": 60,
+            "wins": 21,
+            "losses": 39,
+            "profit_total_abs": -16.89209278,
+            "profit_total": -0.01689209278,
+            "profit_factor": 0.7743078242298593
+          },
+          "LabBaseline": {
+            "total_trades": 78,
+            "wins": 30,
+            "losses": 48,
+            "profit_total_abs": 1.3001820400000006,
+            "profit_total": 0.0013001820400000007,
+            "profit_factor": 1.0168672765094362
+          }
+        }
+      ],
+      "canonical_metrics": "metrics.json",
+      "note": "One archived locked execution."
+    }
+  }
+}

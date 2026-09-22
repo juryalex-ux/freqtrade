@@ -1,0 +1,81 @@
+{
+  "freeze_utc": "2026-09-22T01:17:01.451573+00:00",
+  "git_commit": "c1d41e8175b124d93cdc7e224f2b07badb8fd9da",
+  "branch": "ai-lab-development",
+  "label_for_every_result": "retrospective robustness evidence only",
+  "frozen_strategy": "AlphaBreakout",
+  "phase4a_central_match": true,
+  "parameters": {
+    "breakout_lookback_hours": 24,
+    "breakout_atr_buffer": 0.1,
+    "natr_condition": "current NATR14 > prior 24h NATR14 mean (mean shifted one candle)",
+    "relative_volume_min": 1.2,
+    "relative_volume": "current volume / prior 24h mean volume",
+    "close_location_min": 0.75,
+    "exit_prior_low_hours": 12,
+    "roi": 0.05,
+    "stoploss": -0.05,
+    "trailing_stop": false
+  },
+  "entry": "Close above prior 24h high + 0.1 ATR14, NATR expansion, relative volume >=1.2, close-location >=0.75, positive volume. Signal candle closes before engine entry on next candle.",
+  "exit": "Close below prior 12h low, plus fixed ROI / stoploss engine exits.",
+  "indicator_formulas": "EMA adjust=False; ATR true range EMA alpha=1/14; all rolling high/low and volume references shifted one candle; no centered window, forward fill, or future return.",
+  "fee_each_side": 0.001,
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT"
+  ],
+  "timeframe": "1h",
+  "execution": {
+    "spot": true,
+    "dry_run": true,
+    "wallet_usdt": 1000,
+    "stake_usdt": 100,
+    "max_open_trades": 2,
+    "entry_order": "limit",
+    "exit_order": "limit",
+    "stoploss_order": "market",
+    "next_candle_execution": true
+  },
+  "periods": {
+    "A_2023": [
+      "20230101",
+      "20240101"
+    ],
+    "B_2024": [
+      "20240101",
+      "20250101"
+    ],
+    "C_2025_to_2026Q1": [
+      "20250101",
+      "20260401"
+    ],
+    "D_2026_shadow": [
+      "20260401",
+      "20260901"
+    ]
+  },
+  "data_plan": "Download 2022-12-01 through 2026-04-01 exclusive from public Binance for warmup and periods A-C; append exact existing sealed D candles. No data beyond 2026-09-01. No results selected or tuned.",
+  "interpretation": "All A-D periods were previously observed in project phases; no result is a pristine or untouched holdout. Results may not change this frozen alpha.",
+  "frozen_source_hashes": {
+    "ai_lab/alpha_research/strategies/AlphaCandidates.py": "cfc775c8834072741daff41dab16ca0809362d674a0e9c21e8d643ff10d29493",
+    "ai_lab/alpha_research/protocol.json": "4cf4b23bc61624188acbfcd5320b4815338c8ada00f9b5a203232b8d046ff65a",
+    "ai_lab/strategies/LabBaseline.py": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+    "ai_lab/configs/backtest.json": "9452cdfea1047d16268ef67692c1ad6f313437b6118091e875e7bb49c349d44d",
+    "ai_lab/regime/shadow/SEALED.json": "319b8a97e5c1fb705662e3efec13ab4d7fe42a0af3c43ed3573f3f51819aedd9"
+  },
+  "validation_source_hashes": {
+    "strategies/AlphaCandidates.py": "cfc775c8834072741daff41dab16ca0809362d674a0e9c21e8d643ff10d29493",
+    "strategies/LabBaseline.py": "e7e32ae09ae5f6584afad52428f0f648e4f33dd92f352b6d04b763ad2c2e234c",
+    "backtest.json": "675ee496edbdf85653cd93a1413440515558275efe7b4118ae7fbb5075aa044d"
+  },
+  "forbidden_after_freeze": [
+    "parameter changes",
+    "additional indicators",
+    "alternative models",
+    "ML",
+    "FreqAI",
+    "threshold selection",
+    "period selection"
+  ]
+}

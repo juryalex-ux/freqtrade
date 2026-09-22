@@ -1,0 +1,22 @@
+[
+  {
+    "label": "A_2023",
+    "metrics_sha256": "c4c99552912db6d217f80b352754ccdf31eacdcac251baef07a8f1da3a3af9b9",
+    "archive_sha256": "20ed3f8f058fe695b3d79562438024f4c8f9b04b365f21a93fec6f875d0cb37f"
+  },
+  {
+    "label": "B_2024",
+    "metrics_sha256": "688ab059a7c9b035f972598dec12f95333cff00846a58d0e2360d2e7818eb98a",
+    "archive_sha256": "95fccae921b6333d62e8da2bb1e1153c0c827251738553b3d58c5686a5b4b9b2"
+  },
+  {
+    "label": "C_2025_to_2026Q1",
+    "metrics_sha256": "42b40b0765e4bbbb0121da9f997989b013232fbf84b4f9a9bea1e349b130f070",
+    "archive_sha256": "7dafcf05a40f5935d0502e605887d84e95175c3d2d45ce1e266a48f2ba2f6d6a"
+  },
+  {
+    "label": "D_2026_shadow",
+    "metrics_sha256": "9a1a0997123acd10afe5059f06b195f0364575bb7abee08d01313590c207a486",
+    "archive_sha256": "3f2dd8587e46aae560268f50ee42aff2b650f168f9a84145121ef82901e16f61"
+  }
+]
